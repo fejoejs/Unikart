@@ -1,0 +1,47 @@
+{
+  "name": "unikart-platform",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:backend": "cd backend && .venv\\Scripts\\python.exe -m uvicorn app.main:app --port 8000 --reload",
+    "dev:storefront": "npm run dev --prefix apps/storefront",
+    "dev:inventory": "npm run dev --prefix apps/inventory",
+    "dev:all": "concurrently -n \"BACKEND,STOREFRONT,INVENTORY\" -c \"magenta,cyan,blue\" \"npm run dev:backend\" \"npm run dev:storefront\" \"npm run dev:inventory\"",
+    "build:storefront": "npm run build --prefix apps/storefront",
+    "build:inventory": "npm run build --prefix apps/inventory",
+    "build:all": "npm run build:storefront && npm run build:inventory",
+    "test:project": "node tests/project.test.js",
+    "test": "node tests/project.test.js",
+    "dev": "npm run dev:all",
+    "build": "npm run build:all",
+    "package:zip": "python scripts/package_release.py"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.119.0",
+    "@tanstack/react-query": "^5.67.2",
+    "axios": "^1.8.2",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.16.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.54.2",
+    "react-router-dom": "^6.29.0",
+    "recharts": "^3.10.1",
+    "tailwind-merge": "^3.0.2",
+    "zod": "^3.24.2",
+    "zustand": "^5.0.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "concurrently": "^10.0.6",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "vite": "^5.4.14"
+  }
+}

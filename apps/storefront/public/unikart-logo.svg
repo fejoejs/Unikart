@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 80" fill="none">
+  <!-- Cart Emblem -->
+  <g transform="translate(10, 8)">
+    <path d="M23 20 C23 9, 41 9, 41 20" stroke="#E31837" stroke-width="4.5" stroke-linecap="round" fill="none" />
+    <path d="M15 22 H49 C51 22 52.5 23.8 52 25.8 L47.5 44 C46.5 47.8 43 50.5 39 50.5 H25 C21 50.5 17.5 47.8 16.5 44 L12 25.8 C11.5 23.8 13 22 15 22 Z" stroke="#E31837" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round" fill="none" />
+    <circle cx="23" cy="58" r="4" fill="#E31837" />
+    <circle cx="23" cy="58" r="1.5" fill="#FFFFFF" />
+    <circle cx="41" cy="58" r="4" fill="#E31837" />
+    <circle cx="41" cy="58" r="1.5" fill="#FFFFFF" />
+  </g>
+  <!-- Wordmark -->
+  <text x="80" y="52" font-family="system-ui, -apple-system, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" letter-spacing="-1">UNI<tspan fill="#E31837">KART</tspan></text>
+</svg>

@@ -1,0 +1,36 @@
+{
+  "name": "unikart-inventory-management",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 5177",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 5177"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.67.2",
+    "@supabase/supabase-js": "^2.119.0",
+    "@unikart/api-client": "*",
+    "@unikart/auth": "*",
+    "@unikart/ui": "*",
+    "axios": "^1.8.2",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.16.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.54.2",
+    "react-router-dom": "^6.29.0",
+    "recharts": "^3.10.1",
+    "tailwind-merge": "^3.0.2",
+    "zod": "^3.24.2",
+    "zustand": "^5.0.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "vite": "^5.4.14"
+  }
+}

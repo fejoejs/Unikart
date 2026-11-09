@@ -1,0 +1,4984 @@
+{
+  "categories": [
+    {
+      "id": "electronics",
+      "name": "Electronics",
+      "slug": "electronics",
+      "icon": "Smartphone",
+      "image": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=500&auto=format&fit=crop&q=80",
+      "itemCount": 250,
+      "description": "Flagship smartphones, pro laptops, ANC audio, OLED displays, and smart gadgets.",
+      "subcategories": [
+        "Smartphones & 5G",
+        "Laptops & MacBooks",
+        "Audio & Headphones",
+        "Smartwatches & Fitness",
+        "Televisions & Home Audio",
+        "Cameras & Photography",
+        "Gaming Consoles & Gear",
+        "Tech Accessories & Chargers"
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "Fashion & Clothing",
+      "slug": "fashion",
+      "icon": "Shirt",
+      "image": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=500&auto=format&fit=crop&q=80",
+      "itemCount": 420,
+      "description": "Trendsetting apparel, designer dresses, shirts, denim, activewear, and outerwear.",
+      "subcategories": [
+        "Men's Casual & Formal Wear",
+        "Women's Western & Fusion",
+        "Ethnic Kurtas & Sarees",
+        "Hoodies, Jackets & Denim",
+        "Activewear & Loungewear",
+        "Kids & Teens Fashion"
+      ]
+    },
+    {
+      "id": "home-kitchen",
+      "name": "Home & Kitchen",
+      "slug": "home-kitchen",
+      "icon": "Home",
+      "image": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=500&auto=format&fit=crop&q=80",
+      "itemCount": 180,
+      "description": "Kitchen appliances, non-stick cookware sets, dining essentials, and smart home care.",
+      "subcategories": [
+        "Kitchen Appliances & Blenders",
+        "Cookware & Non-Stick Sets",
+        "Dinnerware & Drinkware",
+        "Kitchen Storage & Organizers",
+        "Bed Linen & Comforters",
+        "Cleaning & Utility"
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "Beauty & Personal Care",
+      "slug": "beauty",
+      "icon": "Sparkles",
+      "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=500&auto=format&fit=crop&q=80",
+      "itemCount": 190,
+      "description": "Dermatological skincare, premium makeup, salon hair care, perfumes, and grooming.",
+      "subcategories": [
+        "Skincare & Vitamin Serums",
+        "Makeup & Cosmetics",
+        "Hair Care & Styling",
+        "Luxury Fragrances & Deos",
+        "Men's Grooming & Shaving",
+        "Bath, Body & Spa"
+      ]
+    },
+    {
+      "id": "grocery",
+      "name": "Grocery & Food",
+      "slug": "grocery",
+      "icon": "ShoppingBasket",
+      "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=500&auto=format&fit=crop&q=80",
+      "itemCount": 350,
+      "description": "Farm-fresh organic produce, cold-pressed oils, dry fruits, staples, and gourmet treats.",
+      "subcategories": [
+        "Fresh Fruits & Vegetables",
+        "Pantry Staples, Atta & Rice",
+        "Gourmet Coffee & Green Teas",
+        "Organic Dry Fruits & Nuts",
+        "Snacks, Cookies & Chocolates",
+        "Dairy, Breakfast & Cereals"
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports & Fitness",
+      "slug": "sports",
+      "icon": "Activity",
+      "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=500&auto=format&fit=crop&q=80",
+      "itemCount": 130,
+      "description": "Gym equipment, smart dumbbells, sports gear, yoga mats, and athletic supplements.",
+      "subcategories": [
+        "Home Gym & Free Weights",
+        "Cardio Machines & Treadmills",
+        "Yoga Mats & Resistance Bands",
+        "Cricket, Football & Racket",
+        "Sports Nutrition & Whey",
+        "Athletic Bags & Accessories"
+      ]
+    },
+    {
+      "id": "toys",
+      "name": "Toys & Games",
+      "slug": "toys",
+      "icon": "Gamepad2",
+      "image": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=500&auto=format&fit=crop&q=80",
+      "itemCount": 110,
+      "description": "STEM educational kits, building blocks, strategy board games, and remote control toys.",
+      "subcategories": [
+        "STEM & Learning Toys",
+        "Board Games & Puzzles",
+        "Building Blocks & LEGO Sets",
+        "Remote Control Cars & Drones",
+        "Action Figures & Collectibles",
+        "Plush Soft Toys & Dolls"
+      ]
+    },
+    {
+      "id": "furniture",
+      "name": "Furniture & Home Decor",
+      "slug": "furniture",
+      "icon": "Armchair",
+      "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=500&auto=format&fit=crop&q=80",
+      "itemCount": 90,
+      "description": "Ergonomic chairs, solid wood tables, accent sofas, modern lighting, and wall art.",
+      "subcategories": [
+        "Ergonomic Office Chairs",
+        "Living Room Sofas & Recliners",
+        "Study & Computer Desks",
+        "Ambient Lighting & Lamps",
+        "Wall Decor, Mirrors & Clocks",
+        "Rugs, Cushions & Furnishings"
+      ]
+    },
+    {
+      "id": "books",
+      "name": "Books & Stationery",
+      "slug": "books",
+      "icon": "BookOpen",
+      "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=500&auto=format&fit=crop&q=80",
+      "itemCount": 150,
+      "description": "Fiction, self-development, exam preparations, luxury journals, and artist stationery.",
+      "subcategories": [
+        "Bestselling Novels & Fiction",
+        "Business, Finance & Self-Help",
+        "Academic & Exam Reference",
+        "Fine Art & Calligraphy",
+        "Leather Journals & Planners",
+        "Office Stationery & Organizers"
+      ]
+    },
+    {
+      "id": "footwear",
+      "name": "Footwear",
+      "slug": "footwear",
+      "icon": "Footprints",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop&q=80",
+      "itemCount": 160,
+      "description": "Sneakers, running shoes, formal leather brogues, women's heels, and comfort sandals.",
+      "subcategories": [
+        "Men's Sneakers & Casuals",
+        "Performance Running Shoes",
+        "Formal Leather Oxfords",
+        "Women's Heels & Party Flats",
+        "Orthopedic Comfort Sandals",
+        "Hiking & Outdoor Boots"
+      ]
+    },
+    {
+      "id": "jewellery",
+      "name": "Jewellery & Accessories",
+      "slug": "jewellery",
+      "icon": "Watch",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&auto=format&fit=crop&q=80",
+      "itemCount": 140,
+      "description": "Sterling silver jewellery, sunglasses, leather wallets, wristwatches, and luggage.",
+      "subcategories": [
+        "Sterling Silver 925 Jewellery",
+        "Fashion Necklaces & Rings",
+        "Luxury Analog & Chrono Watches",
+        "Polarized Sunglasses",
+        "Genuine Leather Wallets & Belts",
+        "Travel Backpacks & Duffles"
+      ]
+    },
+    {
+      "id": "baby",
+      "name": "Baby & Kids Products",
+      "slug": "baby",
+      "icon": "Smile",
+      "image": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=500&auto=format&fit=crop&q=80",
+      "itemCount": 120,
+      "description": "Diapers, gentle skincare, compact strollers, feeding essentials, and infant wear.",
+      "subcategories": [
+        "Diapers, Pants & Pure Wipes",
+        "Strollers, Prams & Car Seats",
+        "Feeding Bottles & Nursing",
+        "Organic Baby Apparel Sets",
+        "Gentle Baby Bath & Skincare",
+        "Nursery Furniture & Monitors"
+      ]
+    },
+    {
+      "id": "automotive",
+      "name": "Automotive Accessories",
+      "slug": "automotive",
+      "icon": "Car",
+      "image": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=500&auto=format&fit=crop&q=80",
+      "itemCount": 85,
+      "description": "Dash cameras, tyre inflators, car vacuums, riding helmets, and vehicle detailing.",
+      "subcategories": [
+        "Car Dash Cams & Audio",
+        "Tyre Inflators & Emergency Kits",
+        "High-Power Car Vacuums",
+        "Motorcycle Riding Helmets & Gear",
+        "Car Care, Polish & Ceramic Wax",
+        "Phone Mounts & In-Car Chargers"
+      ]
+    },
+    {
+      "id": "pets",
+      "name": "Pet Supplies",
+      "slug": "pets",
+      "icon": "Heart",
+      "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=500&auto=format&fit=crop&q=80",
+      "itemCount": 75,
+      "description": "Nutritious pet food, orthopedic beds, cat trees, interactive toys, and grooming.",
+      "subcategories": [
+        "Dog Nutrition & Crunchy Treats",
+        "Cat Food, Litter & Scratchers",
+        "Orthopedic Pet Beds & Mats",
+        "Interactive Chew & Fetch Toys",
+        "Pet Grooming, Shampoos & Brushes",
+        "Leashes, Harnesses & Collars"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "elec-1",
+      "name": "Apple iPhone 16 Pro Max (256GB) - Desert Titanium",
+      "brand": "Apple",
+      "category": "electronics",
+      "categoryLabel": "Electronics",
+      "subcategory": "Smartphones & 5G",
+      "price": 139900,
+      "originalPrice": 149900,
+      "discount": 7,
+      "rating": 4.9,
+      "reviewCount": 4280,
+      "stockQuantity": 54,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "Best Seller",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=800&auto=format&fit=crop&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=800&auto=format&fit=crop&q=80"
+      ],
+      "colors": [
+        "Desert Titanium",
+        "Natural Titanium",
+        "White Titanium",
+        "Black Titanium"
+      ],
+      "sizes": [
+        "256GB",
+        "512GB",
+        "1TB"
+      ],
+      "description": "Features A18 Pro chip, 48MP Fusion camera system with 5x Telephoto, 6.9-inch Super Retina XDR display with ProMotion and grade 5 titanium design.",
+      "features": [
+        "A18 Pro chip with 6-core GPU",
+        "Camera Control button for instant capture",
+        "4K 120 fps Dolby Vision recording",
+        "Titanium design with textured matte glass"
+      ]
+    },
+    {
+      "id": "elec-2",
+      "name": "Sony WH-1000XM5 Wireless Noise-Cancelling Headphones",
+      "brand": "Sony",
+      "category": "electronics",
+      "categoryLabel": "Electronics",
+      "subcategory": "Audio & Headphones",
+      "price": 26990,
+      "originalPrice": 34990,
+      "discount": 23,
+      "rating": 4.8,
+      "reviewCount": 3120,
+      "stockQuantity": 38,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "Deal of the Day",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-apex",
+      "seller": "Apex Consumer Direct India",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Midnight Black",
+        "Platinum Silver",
+        "Smoky Pink"
+      ],
+      "sizes": [
+        "Over-Ear"
+      ],
+      "description": "Industry-leading noise cancellation powered by two processors and 8 microphones. Hi-Res Audio and up to 30 hours of battery life with ultra-fast charging.",
+      "features": [
+        "Auto NC Optimizer",
+        "30-hour battery life",
+        "Multipoint connection",
+        "Crystal clear hands-free calling"
+      ]
+    },
+    {
+      "id": "elec-3",
+      "name": "Apple MacBook Pro 14 (M3 Pro 18GB/512GB SSD) - Space Black",
+      "brand": "Apple",
+      "category": "electronics",
+      "categoryLabel": "Electronics",
+      "subcategory": "Laptops & MacBooks",
+      "price": 189900,
+      "originalPrice": 199900,
+      "discount": 5,
+      "rating": 4.9,
+      "reviewCount": 1840,
+      "stockQuantity": 28,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Top Rated",
+      "deliveryDays": 2,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Space Black",
+        "Silver"
+      ],
+      "sizes": [
+        "14-inch (512GB)",
+        "14-inch (1TB)"
+      ],
+      "description": "M3 Pro chip rips through demanding creative workflows. Liquid Retina XDR display with up to 1000 nits sustained brightness and up to 18 hours battery.",
+      "features": [
+        "11-core CPU, 14-core GPU",
+        "Liquid Retina XDR display",
+        "18GB unified memory",
+        "Up to 18 hours battery life"
+      ]
+    },
+    {
+      "id": "elec-4",
+      "name": "Samsung Galaxy Watch 7 (44mm Bluetooth & LTE) - Green",
+      "brand": "Samsung",
+      "category": "electronics",
+      "categoryLabel": "Electronics",
+      "subcategory": "Smartwatches & Fitness",
+      "price": 29999,
+      "originalPrice": 36999,
+      "discount": 19,
+      "rating": 4.7,
+      "reviewCount": 1540,
+      "stockQuantity": 65,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "Popular Pick",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-apex",
+      "seller": "Apex Consumer Direct India",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Forest Green",
+        "Silver",
+        "Graphite"
+      ],
+      "sizes": [
+        "40mm",
+        "44mm"
+      ],
+      "description": "Powered by 3nm processor with dual-frequency GPS, advanced sleep tracking, BioActive Sensor, and Sapphire Crystal glass.",
+      "features": [
+        "Dual-Frequency GPS",
+        "Energy Score with Galaxy AI",
+        "Continuous ECG and Heart Monitoring",
+        "Super AMOLED Display"
+      ]
+    },
+    {
+      "id": "elec-5",
+      "name": "LG 55-inch OLED evo C4 4K Smart TV with Dolby Vision",
+      "brand": "LG",
+      "category": "electronics",
+      "categoryLabel": "Electronics",
+      "subcategory": "Televisions & Home Audio",
+      "price": 114990,
+      "originalPrice": 159990,
+      "discount": 28,
+      "rating": 4.8,
+      "reviewCount": 960,
+      "stockQuantity": 18,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": false,
+      "isTrending": true,
+      "badge": "Deal of the Day",
+      "deliveryDays": 2,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Dark Titan"
+      ],
+      "sizes": [
+        "55-inch",
+        "65-inch"
+      ],
+      "description": "Infinite contrast, 100% color volume with alpha 9 AI Processor 4K Gen7, 144Hz VRR gaming, and Dolby Atmos cinematic sound.",
+      "features": [
+        "Self-lit OLED pixels",
+        "144Hz Refresh Rate with G-Sync",
+        "webOS 24 with AI Customization",
+        "Filmmaker Mode & Dolby Vision"
+      ]
+    },
+    {
+      "id": "elec-6",
+      "name": "Sony PlayStation 5 Slim Console (1TB SSD Horizon Bundle)",
+      "brand": "Sony",
+      "category": "electronics",
+      "categoryLabel": "Electronics",
+      "subcategory": "Gaming Consoles & Gear",
+      "price": 49990,
+      "originalPrice": 54990,
+      "discount": 9,
+      "rating": 4.9,
+      "reviewCount": 4890,
+      "stockQuantity": 32,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "Best Seller",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "White/Black"
+      ],
+      "sizes": [
+        "Standard Disc Edition"
+      ],
+      "description": "Experience lightning-fast loading with an ultra-high speed SSD, deeper immersion with haptic feedback, adaptive triggers, and 3D Audio.",
+      "features": [
+        "Ray Tracing acceleration",
+        "Up to 120 fps with 120Hz output",
+        "DualSense Wireless Controller",
+        "Tempest 3D AudioTech"
+      ]
+    },
+    {
+      "id": "elec-7",
+      "name": "Apple iPad Air 11-inch (M2 Chip 128GB Wi-Fi) - Starlight",
+      "brand": "Apple",
+      "category": "electronics",
+      "categoryLabel": "Electronics",
+      "subcategory": "Smartphones & 5G",
+      "price": 56900,
+      "originalPrice": 59900,
+      "discount": 5,
+      "rating": 4.8,
+      "reviewCount": 2210,
+      "stockQuantity": 44,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": false,
+      "isTrending": false,
+      "badge": "Top Rated",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1561154464-82e9adf32764?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Starlight",
+        "Space Gray",
+        "Blue",
+        "Purple"
+      ],
+      "sizes": [
+        "128GB",
+        "256GB"
+      ],
+      "description": "Redesigned with the supercharged Apple M2 chip, a stunning Liquid Retina display, and landscape front camera.",
+      "features": [
+        "Apple M2 chip",
+        "Liquid Retina display with True Tone",
+        "Touch ID built into top button",
+        "Supports Apple Pencil Pro"
+      ]
+    },
+    {
+      "id": "elec-8",
+      "name": "Bose SoundLink Revolve+ II 360 Bluetooth Speaker",
+      "brand": "Bose",
+      "category": "electronics",
+      "categoryLabel": "Electronics",
+      "subcategory": "Audio & Headphones",
+      "price": 24500,
+      "originalPrice": 29900,
+      "discount": 18,
+      "rating": 4.7,
+      "reviewCount": 1680,
+      "stockQuantity": 40,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": false,
+      "isTrending": true,
+      "badge": "Deal",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-apex",
+      "seller": "Apex Consumer Direct India",
+      "image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Triple Black",
+        "Lux Gray"
+      ],
+      "sizes": [
+        "Standard"
+      ],
+      "description": "Deep, loud, immersive sound with true 360-degree coverage. Water and dust resistant (IP55) with flexible fabric handle and 17 hours battery.",
+      "features": [
+        "True 360-degree room-filling acoustic",
+        "17 hours playtime",
+        "IP55 dust & water resistance",
+        "Built-in microphone for speakerphone"
+      ]
+    },
+    {
+      "id": "elec-9",
+      "name": "Sony Alpha 7 IV Full-Frame Mirrorless Camera (Body Only)",
+      "brand": "Sony",
+      "category": "electronics",
+      "categoryLabel": "Electronics",
+      "subcategory": "Cameras & Photography",
+      "price": 198990,
+      "originalPrice": 219990,
+      "discount": 10,
+      "rating": 4.9,
+      "reviewCount": 780,
+      "stockQuantity": 15,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Professional Choice",
+      "deliveryDays": 2,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Black"
+      ],
+      "sizes": [
+        "Body Only",
+        "With 28-70mm Lens"
+      ],
+      "description": "33MP Exmor R CMOS full-frame sensor with BIONZ XR processing, 4K 60p video, 10-bit 4:2:2 recording, and real-time eye autofocus.",
+      "features": [
+        "33MP full-frame Exmor R sensor",
+        "Real-time Eye AF for Humans, Animals & Birds",
+        "4K 60p 10-bit 4:2:2 recording",
+        "5.5-step optical image stabilization"
+      ]
+    },
+    {
+      "id": "elec-10",
+      "name": "Anker Prime 100W GaN 3-Port Fast Wall Charger",
+      "brand": "Anker",
+      "category": "electronics",
+      "categoryLabel": "Electronics",
+      "subcategory": "Tech Accessories & Chargers",
+      "price": 4999,
+      "originalPrice": 7999,
+      "discount": 38,
+      "rating": 4.8,
+      "reviewCount": 3890,
+      "stockQuantity": 120,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "Best Seller",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-apex",
+      "seller": "Apex Consumer Direct India",
+      "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Black",
+        "Silver"
+      ],
+      "sizes": [
+        "100W 3-Port"
+      ],
+      "description": "Ultra-compact Gallium Nitride (GaN) fast charger with 2 USB-C ports and 1 USB-A port. Fast charges MacBook Pro, iPhone, and Galaxy simultaneously.",
+      "features": [
+        "100W maximum high-speed output",
+        "GaNPrime intelligent power allocation",
+        "ActiveShield 2.0 temperature monitoring",
+        "43% smaller than original Apple 96W charger"
+      ]
+    },
+    {
+      "id": "fash-1",
+      "name": "Levi's Men's Trucker Denim Jacket - Classic Indigo Wash",
+      "brand": "Levi's",
+      "category": "fashion",
+      "categoryLabel": "Fashion & Clothing",
+      "subcategory": "Hoodies, Jackets & Denim",
+      "price": 3499,
+      "originalPrice": 5999,
+      "discount": 42,
+      "rating": 4.7,
+      "reviewCount": 2940,
+      "stockQuantity": 45,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "Best Seller",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-lifestyle",
+      "seller": "Trendsetter Lifestyle Retails",
+      "image": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Classic Indigo",
+        "Faded Stonewash",
+        "Washed Black"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "description": "An authentic American icon since 1967. 100% heavyweight cotton denim crafted with signature copper shank buttons and chest flap pockets.",
+      "features": [
+        "100% Pure Premium Cotton",
+        "Regular tailored fit",
+        "Side welt hand pockets",
+        "Adjustable waist tabs"
+      ]
+    },
+    {
+      "id": "fash-2",
+      "name": "Zara Women's Bohemian Floral Tiered Maxi Dress",
+      "brand": "Zara",
+      "category": "fashion",
+      "categoryLabel": "Fashion & Clothing",
+      "subcategory": "Women's Western & Fusion",
+      "price": 2790,
+      "originalPrice": 4590,
+      "discount": 39,
+      "rating": 4.8,
+      "reviewCount": 1870,
+      "stockQuantity": 36,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "Trending",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-lifestyle",
+      "seller": "Trendsetter Lifestyle Retails",
+      "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Botanical Floral",
+        "Emerald Meadow",
+        "Sunset Coral"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "description": "Flowing breathable viscose maxi dress with delicate flutter sleeves, cinched smocked bodice, and graceful tiered skirt for summer comfort.",
+      "features": [
+        "100% Breathable Eco-Viscose",
+        "Smocked elasticated bodice",
+        "V-neckline with tassel tie",
+        "Machine washable"
+      ]
+    },
+    {
+      "id": "fash-3",
+      "name": "Allen Solly Men's Slim Fit Pure Linen Casual Shirt",
+      "brand": "Allen Solly",
+      "category": "fashion",
+      "categoryLabel": "Fashion & Clothing",
+      "subcategory": "Men's Casual & Formal Wear",
+      "price": 1899,
+      "originalPrice": 2999,
+      "discount": 37,
+      "rating": 4.6,
+      "reviewCount": 2150,
+      "stockQuantity": 60,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Wardrobe Essential",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-lifestyle",
+      "seller": "Trendsetter Lifestyle Retails",
+      "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Sky Blue",
+        "Crisp White",
+        "Sage Green",
+        "Dusty Pink"
+      ],
+      "sizes": [
+        "38",
+        "40",
+        "42",
+        "44"
+      ],
+      "description": "Crafted from 100% French flax linen. Keeps you impeccably cool in tropical weather with a refined cutaway collar and curved hem.",
+      "features": [
+        "100% French Flax Linen",
+        "Curved hem for untucked wear",
+        "Soft garment enzyme wash",
+        "Long sleeves with roll-up tabs"
+      ]
+    },
+    {
+      "id": "fash-4",
+      "name": "Biba Women's Chanderi Silk Embroidered Anarkali Kurta Set",
+      "brand": "Biba",
+      "category": "fashion",
+      "categoryLabel": "Fashion & Clothing",
+      "subcategory": "Ethnic Kurtas & Sarees",
+      "price": 4999,
+      "originalPrice": 8999,
+      "discount": 44,
+      "rating": 4.8,
+      "reviewCount": 1420,
+      "stockQuantity": 28,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": false,
+      "isTrending": true,
+      "badge": "Festive Edit",
+      "deliveryDays": 2,
+      "freeDelivery": true,
+      "sellerId": "seller-lifestyle",
+      "seller": "Trendsetter Lifestyle Retails",
+      "image": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Maroon Gold",
+        "Royal Navy",
+        "Mustard Yellow"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "description": "Lavish festive ensemble featuring intricate zari embroidery across the yoke, flared floor-length silhouette, matching palazzo, and organza dupatta.",
+      "features": [
+        "Chanderi Silk Blend",
+        "Intricate Zari & Sequin Work",
+        "Includes Organza Dupatta & Trousers",
+        "Dry Clean Recommended"
+      ]
+    },
+    {
+      "id": "fash-5",
+      "name": "Nike Club Fleece Heavyweight Oversized Hoodie",
+      "brand": "Nike",
+      "category": "fashion",
+      "categoryLabel": "Fashion & Clothing",
+      "subcategory": "Hoodies, Jackets & Denim",
+      "price": 3695,
+      "originalPrice": 4795,
+      "discount": 23,
+      "rating": 4.8,
+      "reviewCount": 3650,
+      "stockQuantity": 70,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "Streetwear Icon",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-lifestyle",
+      "seller": "Trendsetter Lifestyle Retails",
+      "image": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Heather Gray",
+        "Pitch Black",
+        "Burgundy Red"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "description": "Universally loved brushed fleece interior for lightweight warmth and comfort. Embroidered Futura logo on chest and roomy kangaroo pouch.",
+      "features": [
+        "80% Cotton, 20% Polyester",
+        "Brushed-back fleece",
+        "Kangaroo pocket & drawstring hood",
+        "Ribbed cuffs and hem"
+      ]
+    },
+    {
+      "id": "fash-6",
+      "name": "H&M Men's Relaxed Fit Tapered Chino Trousers",
+      "brand": "H&M",
+      "category": "fashion",
+      "categoryLabel": "Fashion & Clothing",
+      "subcategory": "Men's Casual & Formal Wear",
+      "price": 1999,
+      "originalPrice": 2999,
+      "discount": 33,
+      "rating": 4.5,
+      "reviewCount": 1920,
+      "stockQuantity": 55,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": false,
+      "isTrending": false,
+      "badge": "Smart Casual",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-lifestyle",
+      "seller": "Trendsetter Lifestyle Retails",
+      "image": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Beige Khaki",
+        "Olive Green",
+        "Charcoal Gray",
+        "Navy"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "description": "Stretch cotton twill trousers tailored with a relaxed thigh and gently tapered leg. Perfect for office smart casual or weekend outings.",
+      "features": [
+        "98% Cotton, 2% Elastane",
+        "Diagonal front pockets, welt back pockets",
+        "Zip fly with concealed hook",
+        "Easy iron fabric"
+      ]
+    },
+    {
+      "id": "fash-7",
+      "name": "Lululemon Align High-Rise Weightless Yoga Leggings",
+      "brand": "Lululemon",
+      "category": "fashion",
+      "categoryLabel": "Fashion & Clothing",
+      "subcategory": "Activewear & Loungewear",
+      "price": 7800,
+      "originalPrice": 9800,
+      "discount": 20,
+      "rating": 4.9,
+      "reviewCount": 2840,
+      "stockQuantity": 32,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "Premium Active",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-lifestyle",
+      "seller": "Trendsetter Lifestyle Retails",
+      "image": "https://images.unsplash.com/photo-1506619216599-9d16d0903dfd?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "True Navy",
+        "Black",
+        "Dark Olive"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "description": "Buttery-soft Nulu fabric feels completely weightless while offering four-way stretch, sweat-wicking properties, and discreet waistband pocket.",
+      "features": [
+        "Signature buttery-soft Nulu fabric",
+        "High rise 25-inch length",
+        "Hidden waistband key pocket",
+        "No center front seam for sleek look"
+      ]
+    },
+    {
+      "id": "fash-8",
+      "name": "Mango Women's Double-Breasted Wool Blend Overcoat",
+      "brand": "Mango",
+      "category": "fashion",
+      "categoryLabel": "Fashion & Clothing",
+      "subcategory": "Hoodies, Jackets & Denim",
+      "price": 6990,
+      "originalPrice": 11990,
+      "discount": 42,
+      "rating": 4.8,
+      "reviewCount": 890,
+      "stockQuantity": 22,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": false,
+      "isTrending": false,
+      "badge": "Winter Luxury",
+      "deliveryDays": 2,
+      "freeDelivery": true,
+      "sellerId": "seller-lifestyle",
+      "seller": "Trendsetter Lifestyle Retails",
+      "image": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Camel Tan",
+        "Charcoal Heather",
+        "Ivory Cream"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "description": "Timeless structured silhouette crafted from an Italian wool-blend cloth. Features notch lapels, flap pockets, and Tortoiseshell buttons.",
+      "features": [
+        "60% Wool, 40% Viscose",
+        "Double-breasted button fastening",
+        "Silky full interior lining",
+        "Back vent for mobility"
+      ]
+    },
+    {
+      "id": "fash-9",
+      "name": "Tommy Hilfiger Classic Pique Polo Shirt with Flag Logo",
+      "brand": "Tommy Hilfiger",
+      "category": "fashion",
+      "categoryLabel": "Fashion & Clothing",
+      "subcategory": "Men's Casual & Formal Wear",
+      "price": 2499,
+      "originalPrice": 3999,
+      "discount": 38,
+      "rating": 4.7,
+      "reviewCount": 3100,
+      "stockQuantity": 65,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Popular Pick",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-lifestyle",
+      "seller": "Trendsetter Lifestyle Retails",
+      "image": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Classic White",
+        "Navy Blue",
+        "Racing Red"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "description": "Premium pure organic cotton pique knit with signature rib-knit collar, two-button placket, and iconic embroidered chest flag emblem.",
+      "features": [
+        "100% Organic Cotton Pique",
+        "Classic polo collar & 2-button placket",
+        "Embroidered chest badge",
+        "Side slit hem"
+      ]
+    },
+    {
+      "id": "fash-10",
+      "name": "Forever New Women's Satin Halter Neck Cocktail Midi Dress",
+      "brand": "Forever New",
+      "category": "fashion",
+      "categoryLabel": "Fashion & Clothing",
+      "subcategory": "Women's Western & Fusion",
+      "price": 4499,
+      "originalPrice": 7499,
+      "discount": 40,
+      "rating": 4.8,
+      "reviewCount": 940,
+      "stockQuantity": 24,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": false,
+      "isTrending": true,
+      "badge": "Party Glam",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-lifestyle",
+      "seller": "Trendsetter Lifestyle Retails",
+      "image": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Champagne Gold",
+        "Emerald Green",
+        "Ruby Red"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "description": "Lustrous heavy liquid satin dress with high halter tie neckline, waist-cinching silhouette, and elegant asymmetric flounce hem.",
+      "features": [
+        "Heavyweight liquid satin drape",
+        "High halter neckline with neck ties",
+        "Invisible back zipper closure",
+        "Flattering bias cut"
+      ]
+    },
+    {
+      "id": "home-1",
+      "name": "Ninja Foodi 8.5L DualZone 6-in-1 Digital Air Fryer",
+      "brand": "Ninja",
+      "category": "home-kitchen",
+      "categoryLabel": "Home & Kitchen",
+      "subcategory": "Kitchen Appliances & Blenders",
+      "price": 13990,
+      "originalPrice": 19990,
+      "discount": 30,
+      "rating": 4.9,
+      "reviewCount": 3480,
+      "stockQuantity": 40,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "Best Seller",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Matte Black"
+      ],
+      "sizes": [
+        "8.5 Litres"
+      ],
+      "description": "2 independent cooking baskets let you cook 2 foods, 2 ways, that finish at the exact same time. Air fry, roast, bake, reheat, dehydrate.",
+      "features": [
+        "DualZone Smart Finish technology",
+        "8.5L XL capacity for whole family meals",
+        "Up to 75% less fat than traditional frying",
+        "Dishwasher-safe non-stick crisper plates"
+      ]
+    },
+    {
+      "id": "home-2",
+      "name": "De'Longhi Dedica Deluxe Pump Espresso & Cappuccino Machine",
+      "brand": "De'Longhi",
+      "category": "home-kitchen",
+      "categoryLabel": "Home & Kitchen",
+      "subcategory": "Kitchen Appliances & Blenders",
+      "price": 21990,
+      "originalPrice": 28990,
+      "discount": 24,
+      "rating": 4.8,
+      "reviewCount": 1980,
+      "stockQuantity": 25,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Barista Choice",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Brushed Stainless Steel",
+        "Matte Black",
+        "Fire Red"
+      ],
+      "sizes": [
+        "15 Bar Pump"
+      ],
+      "description": "Sleek 6-inch compact footprint. 15-bar professional pressure delivers rich crema espresso with an adjustable manual milk frothing wand.",
+      "features": [
+        "15-Bar Italian high pressure pump",
+        "Thermoblock heating in under 40 seconds",
+        "Double wall filter baskets for single & double shot",
+        "Stainless steel cup warming tray"
+      ]
+    },
+    {
+      "id": "home-3",
+      "name": "Prestige Tri-Ply Stainless Steel 5-Piece Induction Cookware Set",
+      "brand": "Prestige",
+      "category": "home-kitchen",
+      "categoryLabel": "Home & Kitchen",
+      "subcategory": "Cookware & Non-Stick Sets",
+      "price": 5499,
+      "originalPrice": 8999,
+      "discount": 39,
+      "rating": 4.7,
+      "reviewCount": 4210,
+      "stockQuantity": 60,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "Popular Pick",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-apex",
+      "seller": "Apex Consumer Direct India",
+      "image": "https://images.unsplash.com/photo-1584990347449-359f429ecb74?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Mirror Polished Steel"
+      ],
+      "sizes": [
+        "5-Piece Set"
+      ],
+      "description": "Crafted with 3 layers: food-grade 304 steel inside, aluminum core for uniform heat distribution, and magnetic 430 steel base for induction cooktops.",
+      "features": [
+        "Tri-Ply uniform heat construction",
+        "Includes Kadhai with lid, Frypan & Saucepan",
+        "Cool-touch cast stainless steel handles",
+        "Compatible with gas and induction"
+      ]
+    },
+    {
+      "id": "home-4",
+      "name": "Philips 1000W Heavy-Duty Mixer Grinder with 4 Stainless Jars",
+      "brand": "Philips",
+      "category": "home-kitchen",
+      "categoryLabel": "Home & Kitchen",
+      "subcategory": "Kitchen Appliances & Blenders",
+      "price": 4999,
+      "originalPrice": 7999,
+      "discount": 38,
+      "rating": 4.6,
+      "reviewCount": 5120,
+      "stockQuantity": 80,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Kitchen Essential",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1570222094114-d054a817e56b?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Jet Black & Ruby Red"
+      ],
+      "sizes": [
+        "1000 Watt Motor"
+      ],
+      "description": "Tough 1000W torque motor designed for tough Indian grinding: dry turmeric, idli batter, smoothies, and chutney. Includes leak-proof jars.",
+      "features": [
+        "1000W high-torque copper motor",
+        "4 heavy-gauge stainless steel jars with flow breakers",
+        "Advanced air ventilation for cool operation",
+        "Tri-point lid lock system"
+      ]
+    },
+    {
+      "id": "home-5",
+      "name": "Roborock S8 Pro Ultra Robot Vacuum and Sonic Mop",
+      "brand": "Roborock",
+      "category": "home-kitchen",
+      "categoryLabel": "Home & Kitchen",
+      "subcategory": "Cleaning & Utility",
+      "price": 74990,
+      "originalPrice": 99990,
+      "discount": 25,
+      "rating": 4.9,
+      "reviewCount": 840,
+      "stockQuantity": 18,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": false,
+      "isTrending": true,
+      "badge": "Smart Home",
+      "deliveryDays": 2,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Gloss White"
+      ],
+      "sizes": [
+        "Robot + All-in-One Dock"
+      ],
+      "description": "Self-washing, self-drying, self-emptying, and self-refilling dock. 6000Pa extreme suction with VibraRise 2.0 dual sonic mopping.",
+      "features": [
+        "RockDock Ultra 6-in-1 auto maintenance",
+        "6000Pa HyperForce suction power",
+        "Reactive 3D obstacle avoidance",
+        "PreciSense LiDAR navigation"
+      ]
+    },
+    {
+      "id": "home-6",
+      "name": "Staub Enamelled Cast Iron Round Cocotte Dutch Oven (5.5 Qt)",
+      "brand": "Staub",
+      "category": "home-kitchen",
+      "categoryLabel": "Home & Kitchen",
+      "subcategory": "Cookware & Non-Stick Sets",
+      "price": 18499,
+      "originalPrice": 24999,
+      "discount": 26,
+      "rating": 4.9,
+      "reviewCount": 680,
+      "stockQuantity": 20,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": false,
+      "isTrending": false,
+      "badge": "Chef Quality",
+      "deliveryDays": 2,
+      "freeDelivery": true,
+      "sellerId": "seller-lifestyle",
+      "seller": "Trendsetter Lifestyle Retails",
+      "image": "https://images.unsplash.com/photo-1544816155-12df9643f363?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Cherry Red",
+        "Grenadine",
+        "Matte Black"
+      ],
+      "sizes": [
+        "5.5 Quarts (26 cm)"
+      ],
+      "description": "Made in France. Heavyweight self-basting spikes on the lid continuously circulate juices for incomparably tender stews, braises, and roasts.",
+      "features": [
+        "Heavy enamelled cast iron",
+        "Self-basting flat lid with spikes",
+        "Matte black enamel interior resists scratching",
+        "Oven safe up to 500°F"
+      ]
+    },
+    {
+      "id": "home-7",
+      "name": "IKEA 16-Piece Modern Stoneware Dinner Set - Matte Charcoal",
+      "brand": "IKEA",
+      "category": "home-kitchen",
+      "categoryLabel": "Home & Kitchen",
+      "subcategory": "Dinnerware & Drinkware",
+      "price": 3290,
+      "originalPrice": 4990,
+      "discount": 34,
+      "rating": 4.7,
+      "reviewCount": 2340,
+      "stockQuantity": 50,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Popular Pick",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-lifestyle",
+      "seller": "Trendsetter Lifestyle Retails",
+      "image": "https://images.unsplash.com/photo-1614088448967-5d070b4715f3?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Matte Charcoal",
+        "Sand White",
+        "Sage Green"
+      ],
+      "sizes": [
+        "Service for 4"
+      ],
+      "description": "Understated Scandinavian rustic elegance. Includes 4 dinner plates, 4 side plates, 4 soup bowls, and 4 mugs made from durable glazed stoneware.",
+      "features": [
+        "Durable chip-resistant stoneware",
+        "Microwave and dishwasher safe",
+        "Hand-finished organic rim",
+        "Scratch-resistant satin glaze"
+      ]
+    },
+    {
+      "id": "home-8",
+      "name": "Wüsthof Classic 7-Piece Precision Forged Kitchen Knife Block Set",
+      "brand": "Wüsthof",
+      "category": "home-kitchen",
+      "categoryLabel": "Home & Kitchen",
+      "subcategory": "Cookware & Non-Stick Sets",
+      "price": 24900,
+      "originalPrice": 32900,
+      "discount": 24,
+      "rating": 4.9,
+      "reviewCount": 520,
+      "stockQuantity": 15,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": false,
+      "isTrending": true,
+      "badge": "German Precision",
+      "deliveryDays": 2,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1593618998160-e34014e67546?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Acacia Wood Block"
+      ],
+      "sizes": [
+        "7-Piece Set"
+      ],
+      "description": "Precision-forged from a single piece of high-carbon stainless steel in Solingen, Germany. Laser-tested for razor sharpness and optimal balance.",
+      "features": [
+        "High-Carbon Stainless Steel 58 HRC",
+        "Full tang with triple-riveted handles",
+        "Includes 8-inch Chef knife, Bread knife, Santoku & shears",
+        "Solid natural acacia wood block"
+      ]
+    },
+    {
+      "id": "home-9",
+      "name": "Portico New York 100% Egyptian Cotton 400TC King Bed Sheet Set",
+      "brand": "Portico",
+      "category": "home-kitchen",
+      "categoryLabel": "Home & Kitchen",
+      "subcategory": "Bed Linen & Comforters",
+      "price": 2899,
+      "originalPrice": 4999,
+      "discount": 42,
+      "rating": 4.8,
+      "reviewCount": 3820,
+      "stockQuantity": 70,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Luxury Bedding",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-lifestyle",
+      "seller": "Trendsetter Lifestyle Retails",
+      "image": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Cloud White",
+        "Dove Gray",
+        "Powder Blue"
+      ],
+      "sizes": [
+        "King (108 x 108 in) + 2 Pillowcases"
+      ],
+      "description": "Silky smooth 400 thread count sateen weave made from long-staple Egyptian cotton. Breathable, hypoallergenic, and exquisitely soft.",
+      "features": [
+        "100% Extra-Long Staple Egyptian Cotton",
+        "400 Thread Count lustrous sateen weave",
+        "Deep corner tucks fit up to 14-inch mattresses",
+        "Colorfast and anti-pilling guaranteed"
+      ]
+    },
+    {
+      "id": "home-10",
+      "name": "Amber Glow Modern Glass & Brass Table Lamp with Dimmable LED",
+      "brand": "IKEA",
+      "category": "home-kitchen",
+      "categoryLabel": "Home & Kitchen",
+      "subcategory": "Living Room Sofas & Recliners",
+      "price": 1899,
+      "originalPrice": 2999,
+      "discount": 37,
+      "rating": 4.7,
+      "reviewCount": 1640,
+      "stockQuantity": 45,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": false,
+      "isTrending": true,
+      "badge": "Trending Decor",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-lifestyle",
+      "seller": "Trendsetter Lifestyle Retails",
+      "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Amber Glass & Antique Brass"
+      ],
+      "sizes": [
+        "14-inch Height"
+      ],
+      "description": "Handblown fluted amber glass shade mounted on an antiqued brass metal base. Features 3-step stepless touch dimming and includes warm Edison bulb.",
+      "features": [
+        "Handblown fluted amber glass",
+        "Stepless touch-sensitive dimmer",
+        "Energy-efficient warm 2700K LED bulb included",
+        "Non-slip weighted brass base"
+      ]
+    },
+    {
+      "id": "beauty-1",
+      "name": "The Ordinary Niacinamide 10% + Zinc 1% Oil-Control Serum",
+      "brand": "The Ordinary",
+      "category": "beauty",
+      "categoryLabel": "Beauty & Personal Care",
+      "subcategory": "Skincare & Vitamin Serums",
+      "price": 750,
+      "originalPrice": 950,
+      "discount": 21,
+      "rating": 4.8,
+      "reviewCount": 6890,
+      "stockQuantity": 95,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "Best Seller",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Standard"
+      ],
+      "sizes": [
+        "30ml",
+        "60ml"
+      ],
+      "description": "High-strength vitamin and mineral blemish formula. Niacinamide (Vitamin B3) reduces blemishes and pore congestion, balanced with Zinc PCA.",
+      "features": [
+        "Reduces appearance of blemishes & enlarged pores",
+        "Balances visible sebum activity",
+        "Cruelty-free, vegan, alcohol-free",
+        "Lightweight water-based formula"
+      ]
+    },
+    {
+      "id": "beauty-2",
+      "name": "L'Oréal Paris Revitalift 1.5% Pure Hyaluronic Acid Plumping Serum",
+      "brand": "L'Oréal",
+      "category": "beauty",
+      "categoryLabel": "Beauty & Personal Care",
+      "subcategory": "Skincare & Vitamin Serums",
+      "price": 999,
+      "originalPrice": 1499,
+      "discount": 33,
+      "rating": 4.7,
+      "reviewCount": 4520,
+      "stockQuantity": 80,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Top Choice",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1608248597359-58b3e2003c40?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Clear"
+      ],
+      "sizes": [
+        "30ml"
+      ],
+      "description": "Intensively hydrates and re-plumps skin in 1 hour. Formulated with Macro and Micro hyaluronic acid molecules for multi-layer hydration.",
+      "features": [
+        "1.5% Pure Hyaluronic Acid concentration",
+        "Instantly plumps skin with +42% hydration",
+        "Non-sticky, fast-absorbing texture",
+        "Dermatologist validated for all skin types"
+      ]
+    },
+    {
+      "id": "beauty-3",
+      "name": "MAC Retro Matte Velvet Lipstick - Ruby Woo (Vivid Blue Red)",
+      "brand": "MAC",
+      "category": "beauty",
+      "categoryLabel": "Beauty & Personal Care",
+      "subcategory": "Makeup & Cosmetics",
+      "price": 2150,
+      "originalPrice": 2450,
+      "discount": 12,
+      "rating": 4.9,
+      "reviewCount": 5120,
+      "stockQuantity": 42,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "Iconic Cult Favorite",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1586495777744-4413f21062fa?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Ruby Woo (Iconic Red)",
+        "Velvet Teddy (Nude)",
+        "Chili (Burnt Orange)"
+      ],
+      "sizes": [
+        "3g Bullet"
+      ],
+      "description": "The world's most famous vivid blue-red matte lipstick. Long-wearing 12-hour color payoff with zero shine and intense high pigmentation.",
+      "features": [
+        "Long-wearing 12-hour durability",
+        "Completely matte, zero-shine velvet finish",
+        "Fade-proof and non-feathering",
+        "Signature vanilla fragrance"
+      ]
+    },
+    {
+      "id": "beauty-4",
+      "name": "Olaplex No. 3 Hair Perfector Repairing Treatment Bond Builder",
+      "brand": "Olaplex",
+      "category": "beauty",
+      "categoryLabel": "Beauty & Personal Care",
+      "subcategory": "Hair Care & Styling",
+      "price": 2950,
+      "originalPrice": 3500,
+      "discount": 16,
+      "rating": 4.8,
+      "reviewCount": 3890,
+      "stockQuantity": 35,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "Salon Treatment",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Standard"
+      ],
+      "sizes": [
+        "100ml"
+      ],
+      "description": "Pre-shampoo hair treatment proven to repair and strengthen damaged, brittle, or chemically treated hair by rebuilding broken disulfide bonds.",
+      "features": [
+        "Patented Bond Building Chemistry",
+        "Restores compromised and heat-styled hair",
+        "Improves overall hair texture and shine",
+        "pH balanced, vegan, sulfate-free"
+      ]
+    },
+    {
+      "id": "beauty-5",
+      "name": "Dior Sauvage Eau de Parfum for Men - 100ml",
+      "brand": "Dior",
+      "category": "beauty",
+      "categoryLabel": "Beauty & Personal Care",
+      "subcategory": "Luxury Fragrances & Deos",
+      "price": 11200,
+      "originalPrice": 12900,
+      "discount": 13,
+      "rating": 4.9,
+      "reviewCount": 2890,
+      "stockQuantity": 22,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Luxury Fragrance",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Standard"
+      ],
+      "sizes": [
+        "100ml EDP"
+      ],
+      "description": "An intoxicating trail of radiant Calabrian bergamot, spicy Sichuan pepper, and sensual Papua New Guinean vanilla absolute.",
+      "features": [
+        "Top notes of juicy Calabrian Bergamot",
+        "Heart of Nutmeg, Sichuan Pepper, Lavender",
+        "Base of warm Ambroxan and Vanilla Absolute",
+        "High-projection 10-hour longevity"
+      ]
+    },
+    {
+      "id": "beauty-6",
+      "name": "Philips Series 7000 Wet & Dry Electric Shaver with Beard Trimmer",
+      "brand": "Philips",
+      "category": "beauty",
+      "categoryLabel": "Beauty & Personal Care",
+      "subcategory": "Men's Grooming & Shaving",
+      "price": 6499,
+      "originalPrice": 9999,
+      "discount": 35,
+      "rating": 4.7,
+      "reviewCount": 1840,
+      "stockQuantity": 48,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": false,
+      "isTrending": true,
+      "badge": "Deal",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-apex",
+      "seller": "Apex Consumer Direct India",
+      "image": "https://images.unsplash.com/photo-1621607512214-68297480165e?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Deep Blue Metallic"
+      ],
+      "sizes": [
+        "Rechargeable"
+      ],
+      "description": "SkinGlide protective coating reduces friction on skin by 25%. SteelPrecision blades make 90,000 cutting actions per minute for a close shave.",
+      "features": [
+        "SenseIQ intelligent beard density sensor",
+        "SteelPrecision self-sharpening blades",
+        "60 minutes cordless shaving on 1-hour charge",
+        "100% waterproof for shower use"
+      ]
+    },
+    {
+      "id": "beauty-7",
+      "name": "Beauty of Joseon Relief Sun: Rice + Probiotics SPF50+ PA++++",
+      "brand": "Beauty of Joseon",
+      "category": "beauty",
+      "categoryLabel": "Beauty & Personal Care",
+      "subcategory": "Skincare & Vitamin Serums",
+      "price": 1199,
+      "originalPrice": 1599,
+      "discount": 25,
+      "rating": 4.9,
+      "reviewCount": 4120,
+      "stockQuantity": 85,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "K-Beauty Best Seller",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Natural Glow"
+      ],
+      "sizes": [
+        "50ml Tube"
+      ],
+      "description": "Lightweight cream sunscreen containing 30% Rice extract and Grain fermented probiotics. Leaves skin deeply hydrated with zero white cast.",
+      "features": [
+        "SPF50+ PA++++ broad spectrum UVA/UVB protection",
+        "30% Rice Bran extract + Fermented grains",
+        "Zero white cast, non-sticky dewy glow",
+        "Reef safe and non-comedogenic"
+      ]
+    },
+    {
+      "id": "beauty-8",
+      "name": "Dyson Airwrap Multi-Styler Complete Long - Strawberry Bronze",
+      "brand": "Dyson",
+      "category": "beauty",
+      "categoryLabel": "Beauty & Personal Care",
+      "subcategory": "Hair Care & Styling",
+      "price": 45900,
+      "originalPrice": 49900,
+      "discount": 8,
+      "rating": 4.8,
+      "reviewCount": 1450,
+      "stockQuantity": 18,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Luxury Haircare",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Strawberry Bronze & Blush Pink",
+        "Nickel & Copper"
+      ],
+      "sizes": [
+        "Complete Long Set"
+      ],
+      "description": "Style with air, not extreme heat. Enhanced Coanda airflow curves hair in both directions for clockwise and counterclockwise voluminous curls.",
+      "features": [
+        "Drives Coanda aerodynamic styling",
+        "Intelligent heat control under 150°C",
+        "Includes 6 precision styling attachments",
+        "Custom storage presentation case"
+      ]
+    },
+    {
+      "id": "beauty-9",
+      "name": "Bath & Body Works Japanese Cherry Blossom Ultra Shea Body Cream",
+      "brand": "Bath & Body Works",
+      "category": "beauty",
+      "categoryLabel": "Beauty & Personal Care",
+      "subcategory": "Bath, Body & Spa",
+      "price": 899,
+      "originalPrice": 1499,
+      "discount": 40,
+      "rating": 4.7,
+      "reviewCount": 3120,
+      "stockQuantity": 65,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": false,
+      "isTrending": true,
+      "badge": "Popular Pick",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1617897903246-719242758050?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Floral Pink"
+      ],
+      "sizes": [
+        "226g"
+      ],
+      "description": "Infused with rich Shea Butter and Cocoa Butter for 24 hours of continuous skin-nourishing moisture with cherry blossom, pear, and mimosa petals.",
+      "features": [
+        "24-hour deep hydrating moisture",
+        "Rich creamy texture without greasy residue",
+        "Infused with Aloe Vera & Cocoa Butter",
+        "Signature Japanese Cherry Blossom fragrance"
+      ]
+    },
+    {
+      "id": "groc-1",
+      "name": "Borges Extra Virgin Olive Oil Cold Extracted (1 Litre Bottle)",
+      "brand": "Borges",
+      "category": "grocery",
+      "categoryLabel": "Grocery & Food",
+      "subcategory": "Pantry Staples, Atta & Rice",
+      "price": 1199,
+      "originalPrice": 1699,
+      "discount": 29,
+      "rating": 4.8,
+      "reviewCount": 3890,
+      "stockQuantity": 110,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "Pantry Essential",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-nature",
+      "seller": "PureEarth Organics & Essentials",
+      "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Standard"
+      ],
+      "sizes": [
+        "1 Litre Glass Bottle"
+      ],
+      "description": "Crafted in Spain from Mediterranean olives harvested at peak ripeness. Cold-extracted within 24 hours to preserve polyphenols and rich aroma.",
+      "features": [
+        "100% Cold extracted Spanish olives",
+        "Rich in heart-healthy monounsaturated fats",
+        "Maximum acidity below 0.5%",
+        "Ideal for salads, sautéing, and dressings"
+      ]
+    },
+    {
+      "id": "groc-2",
+      "name": "Nutraj Premium California Whole Raw Almonds (1 kg Zipper Pack)",
+      "brand": "Nutraj",
+      "category": "grocery",
+      "categoryLabel": "Grocery & Food",
+      "subcategory": "Organic Dry Fruits & Nuts",
+      "price": 849,
+      "originalPrice": 1299,
+      "discount": 35,
+      "rating": 4.8,
+      "reviewCount": 5410,
+      "stockQuantity": 140,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Super Saver",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-nature",
+      "seller": "PureEarth Organics & Essentials",
+      "image": "https://images.unsplash.com/photo-1508061252224-237ff52d9a60?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Raw Natural"
+      ],
+      "sizes": [
+        "1 Kilogram Pouch"
+      ],
+      "description": "Crispy, crunchy, and freshly packed California almonds. Packed with plant protein, dietary fiber, vitamin E, and essential magnesium.",
+      "features": [
+        "100% Natural California Badam",
+        "Zero added preservatives or cholesterol",
+        "High in Vitamin E and dietary fiber",
+        "Resealable vacuum zipper pouch"
+      ]
+    },
+    {
+      "id": "groc-3",
+      "name": "Blue Tokai Coffee Roasters Whole Bean Vienna Roast Arabica (500g)",
+      "brand": "Blue Tokai",
+      "category": "grocery",
+      "categoryLabel": "Grocery & Food",
+      "subcategory": "Gourmet Coffee & Green Teas",
+      "price": 640,
+      "originalPrice": 750,
+      "discount": 15,
+      "rating": 4.9,
+      "reviewCount": 2840,
+      "stockQuantity": 75,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "Artisanal Coffee",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-nature",
+      "seller": "PureEarth Organics & Essentials",
+      "image": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Vienna Dark Roast"
+      ],
+      "sizes": [
+        "500g Fresh Whole Beans"
+      ],
+      "description": "Specialty grade 100% Indian Arabica roasted to a deep Vienna profile. Notes of dark chocolate, toasted walnut, and low acidity caramel.",
+      "features": [
+        "100% Single-Estate Indian Arabica",
+        "Dark roast profile with rich crema",
+        "Degassing valve preserves roast freshness",
+        "Suitable for Espresso, French Press & Moka Pot"
+      ]
+    },
+    {
+      "id": "groc-4",
+      "name": "Dabur 100% Pure Raw Wild Organic Honey (1 kg Glass Jar)",
+      "brand": "Dabur",
+      "category": "grocery",
+      "categoryLabel": "Grocery & Food",
+      "subcategory": "Pantry Staples, Atta & Rice",
+      "price": 469,
+      "originalPrice": 599,
+      "discount": 22,
+      "rating": 4.7,
+      "reviewCount": 6890,
+      "stockQuantity": 150,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "100% Pure",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-nature",
+      "seller": "PureEarth Organics & Essentials",
+      "image": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Amber Honey"
+      ],
+      "sizes": [
+        "1 Kilogram Glass Jar"
+      ],
+      "description": "Unadulterated pure raw forest honey. Sourced ethically from wild forest hives. Free from added corn syrup, artificial color, or sugar adulteration.",
+      "features": [
+        "100% NMR tested pure honey",
+        "Rich in natural antioxidants and enzymes",
+        "Zero added sugar or invert syrup",
+        "Immunity booster with warm water and lemon"
+      ]
+    },
+    {
+      "id": "groc-5",
+      "name": "Lindt Excellence 85% Cocoa Dark Chocolate Bar Pack of 3",
+      "brand": "Lindt",
+      "category": "grocery",
+      "categoryLabel": "Grocery & Food",
+      "subcategory": "Snacks, Cookies & Chocolates",
+      "price": 890,
+      "originalPrice": 1050,
+      "discount": 15,
+      "rating": 4.9,
+      "reviewCount": 3120,
+      "stockQuantity": 60,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Swiss Chocolatier",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-nature",
+      "seller": "PureEarth Organics & Essentials",
+      "image": "https://images.unsplash.com/photo-1549007994-cb92caebd54b?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "85% Dark"
+      ],
+      "sizes": [
+        "3 x 100g Bars"
+      ],
+      "description": "Swiss Master Chocolatiers prepare this full-bodied, robust dark chocolate with aromas of dried fruit, licorice, and roasted coffee beans.",
+      "features": [
+        "85% Pure Cocoa Solids",
+        "Low sugar content",
+        "Masterly smooth melt-in-mouth mouthfeel",
+        "Manufactured in Switzerland"
+      ]
+    },
+    {
+      "id": "groc-6",
+      "name": "Barilla Classic Italian Penne Rigate Durum Wheat Pasta (1 kg)",
+      "brand": "Barilla",
+      "category": "grocery",
+      "categoryLabel": "Grocery & Food",
+      "subcategory": "Pantry Staples, Atta & Rice",
+      "price": 380,
+      "originalPrice": 499,
+      "discount": 24,
+      "rating": 4.8,
+      "reviewCount": 2480,
+      "stockQuantity": 90,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": false,
+      "isTrending": false,
+      "badge": "Authentic Italian",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-nature",
+      "seller": "PureEarth Organics & Essentials",
+      "image": "https://images.unsplash.com/photo-1621996346565-e3d5d6281691?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Golden Semolina"
+      ],
+      "sizes": [
+        "1 Kilogram Box"
+      ],
+      "description": "Italy's #1 pasta. Made from selected 100% durum wheat semolina. Ridges perfectly trap chunky tomato, pesto, or creamy cheese sauces.",
+      "features": [
+        "100% Non-GMO Durum Wheat Semolina",
+        "Cooks to perfect 'Al Dente' texture in 11 minutes",
+        "High in protein and dietary fiber",
+        "No artificial colors or preservatives"
+      ]
+    },
+    {
+      "id": "groc-7",
+      "name": "Oatly Barista Edition Creamy Oat Milk (1 Litre Tetra Pack)",
+      "brand": "Oatly",
+      "category": "grocery",
+      "categoryLabel": "Grocery & Food",
+      "subcategory": "Dairy, Breakfast & Cereals",
+      "price": 360,
+      "originalPrice": 420,
+      "discount": 14,
+      "rating": 4.8,
+      "reviewCount": 1950,
+      "stockQuantity": 70,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": false,
+      "isTrending": true,
+      "badge": "Barista Favorite",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-nature",
+      "seller": "PureEarth Organics & Essentials",
+      "image": "https://images.unsplash.com/photo-1550583724-b2692b85b150?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Creamy White"
+      ],
+      "sizes": [
+        "1 Litre"
+      ],
+      "description": "Foams brilliantly for silky latte art without cow milk. Made from liquid oats enriched with calcium, iodine, and vitamins D and B12.",
+      "features": [
+        "100% Plant-Based and Dairy-Free",
+        "Micro-foams perfectly for cappuccinos and matcha",
+        "Enriched with Calcium and Vitamin D2",
+        "Nut-free, soy-free, and vegan"
+      ]
+    },
+    {
+      "id": "groc-8",
+      "name": "Organic India Tulsi Green Tea Pomegranate (25 Tea Bags Box)",
+      "brand": "Organic India",
+      "category": "grocery",
+      "categoryLabel": "Grocery & Food",
+      "subcategory": "Gourmet Coffee & Green Teas",
+      "price": 245,
+      "originalPrice": 299,
+      "discount": 18,
+      "rating": 4.7,
+      "reviewCount": 3840,
+      "stockQuantity": 110,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Herbal Wellness",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-nature",
+      "seller": "PureEarth Organics & Essentials",
+      "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Pomegranate Green"
+      ],
+      "sizes": [
+        "25 Infusion Bags"
+      ],
+      "description": "Harmonious blend of sacred holy Tulsi leaves, whole green tea, and tangy pomegranate with hibiscus. Supports metabolism and natural detox.",
+      "features": [
+        "Certified Organic Tulsi and Green Tea",
+        "Loaded with natural polyphenols & bioflavonoids",
+        "Unbleached staple-free paper tea bags",
+        "Caffeine-balanced for daily vitality"
+      ]
+    },
+    {
+      "id": "groc-9",
+      "name": "Aashirvaad Select 100% Sharbati Whole Wheat Atta (5 kg Pack)",
+      "brand": "Aashirvaad",
+      "category": "grocery",
+      "categoryLabel": "Grocery & Food",
+      "subcategory": "Pantry Staples, Atta & Rice",
+      "price": 360,
+      "originalPrice": 440,
+      "discount": 18,
+      "rating": 4.8,
+      "reviewCount": 8900,
+      "stockQuantity": 200,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Daily Essential",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-nature",
+      "seller": "PureEarth Organics & Essentials",
+      "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Golden Sharbati"
+      ],
+      "sizes": [
+        "5 Kilograms"
+      ],
+      "description": "Made from golden sun-kissed Sharbati wheat grains from Madhya Pradesh. Rotis remain tender, fluffy, and aromatic for hours.",
+      "features": [
+        "100% MP Sharbati wheat grains",
+        "Traditional stone-chakki grinding process",
+        "Retains 100% natural wheat dietary bran",
+        "Zero maida adulteration"
+      ]
+    },
+    {
+      "id": "sport-1",
+      "name": "Bowflex SelectTech 552 Adjustable Dumbbells (Pair 2-24 kg)",
+      "brand": "Bowflex",
+      "category": "sports",
+      "categoryLabel": "Sports & Fitness",
+      "subcategory": "Home Gym & Free Weights",
+      "price": 28990,
+      "originalPrice": 38990,
+      "discount": 26,
+      "rating": 4.9,
+      "reviewCount": 1680,
+      "stockQuantity": 22,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "Top Rated",
+      "deliveryDays": 2,
+      "freeDelivery": true,
+      "sellerId": "seller-apex",
+      "seller": "Apex Consumer Direct India",
+      "image": "https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Black/Red Trim"
+      ],
+      "sizes": [
+        "Pair (Up to 24kg each)"
+      ],
+      "description": "Replaces 15 pairs of traditional dumbbells with a single turn of the selector dial. Adjusts from 2 to 24 kg in gradual increments for all lifts.",
+      "features": [
+        "Rapid turn-of-dial weight selection",
+        "Replaces 15 sets of dumbbells in compact footprint",
+        "Durable molding around metal plates for quiet workouts",
+        "Includes fitted resting trays"
+      ]
+    },
+    {
+      "id": "sport-2",
+      "name": "Manduka PRO 6mm High-Density Cushion Alignment Yoga Mat",
+      "brand": "Manduka",
+      "category": "sports",
+      "categoryLabel": "Sports & Fitness",
+      "subcategory": "Yoga Mats & Resistance Bands",
+      "price": 7990,
+      "originalPrice": 10990,
+      "discount": 27,
+      "rating": 4.9,
+      "reviewCount": 1940,
+      "stockQuantity": 34,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Pro Choice",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-apex",
+      "seller": "Apex Consumer Direct India",
+      "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Black Sage",
+        "Midnight Navy",
+        "Plum Berry"
+      ],
+      "sizes": [
+        "71 x 26 inches (6mm)"
+      ],
+      "description": "The gold standard for yoga teachers worldwide. Unmatched 6mm joint cushion, non-slip textured dot surface, and lifetime durability guarantee.",
+      "features": [
+        "High-density closed-cell PVC construction",
+        "Guaranteed never to peel, flake or fade",
+        "Protects knees and spine on hard floors",
+        "Oeko-Tex certified non-toxic manufacturing"
+      ]
+    },
+    {
+      "id": "sport-3",
+      "name": "Optimum Nutrition Gold Standard 100% Whey Protein (5 lbs / 2.27 kg)",
+      "brand": "Optimum Nutrition",
+      "category": "sports",
+      "categoryLabel": "Sports & Fitness",
+      "subcategory": "Sports Nutrition & Whey",
+      "price": 6499,
+      "originalPrice": 8499,
+      "discount": 24,
+      "rating": 4.8,
+      "reviewCount": 9420,
+      "stockQuantity": 115,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "Best Seller",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-nature",
+      "seller": "PureEarth Organics & Essentials",
+      "image": "https://images.unsplash.com/photo-1579722821273-0f6c7d44362f?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Double Rich Chocolate",
+        "Vanilla Ice Cream",
+        "Mocha Cappuccino"
+      ],
+      "sizes": [
+        "5 lbs Tub (74 Servings)"
+      ],
+      "description": "The world's #1 selling whey protein powder. Delivers 24g of microfiltered whey protein isolate, 5.5g of BCAAs, and 4g of glutamine per scoop.",
+      "features": [
+        "24g Protein per scoop with Whey Isolate primary source",
+        "5.5g naturally occurring BCAAs",
+        "Informed-Choice certified banned-substance tested",
+        "Instantized for smooth lump-free shaking"
+      ]
+    },
+    {
+      "id": "sport-4",
+      "name": "Yonex Astrox 99 Pro Badminton Racket (4U G5 - Made in Japan)",
+      "brand": "Yonex",
+      "category": "sports",
+      "categoryLabel": "Sports & Fitness",
+      "subcategory": "Cricket, Football & Racket",
+      "price": 14990,
+      "originalPrice": 19990,
+      "discount": 25,
+      "rating": 4.9,
+      "reviewCount": 920,
+      "stockQuantity": 28,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Professional Racket",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-apex",
+      "seller": "Apex Consumer Direct India",
+      "image": "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Cherry Sunburst",
+        "White Tiger"
+      ],
+      "sizes": [
+        "4U (83g) G5 Grip"
+      ],
+      "description": "Developed with Kento Momota. Rotational Generator System balances weight throughout for steep, unreturnable power smashes and lightning defense.",
+      "features": [
+        "Namd high-flex graphite in shaft and frame",
+        "Rotational Generator System counterbalancing",
+        "Isometric enlarged sweet spot",
+        "Made in Tokyo, Japan"
+      ]
+    },
+    {
+      "id": "sport-5",
+      "name": "Fitbit Charge 6 Advanced Fitness Tracker with Built-in GPS",
+      "brand": "Fitbit",
+      "category": "sports",
+      "categoryLabel": "Sports & Fitness",
+      "subcategory": "Home Gym & Free Weights",
+      "price": 12999,
+      "originalPrice": 15999,
+      "discount": 19,
+      "rating": 4.6,
+      "reviewCount": 2180,
+      "stockQuantity": 42,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": false,
+      "isTrending": true,
+      "badge": "New Release",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-apex",
+      "seller": "Apex Consumer Direct India",
+      "image": "https://images.unsplash.com/photo-1576243345690-4e4b79b63288?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Obsidian Black",
+        "Coral Pink",
+        "Porcelain Silver"
+      ],
+      "sizes": [
+        "Includes Small & Large Straps"
+      ],
+      "description": "Google's most accurate heart rate tracking on a fitness band. Includes built-in GPS, 40+ workout modes, YouTube Music controls, and Google Wallet.",
+      "features": [
+        "Built-in GPS for pace and distance",
+        "ECG app and irregular heart rhythm alerts",
+        "7-day battery life with water resistance to 50m",
+        "Daily Readiness Score and sleep profile"
+      ]
+    },
+    {
+      "id": "sport-6",
+      "name": "SG Player Ultimate English Willow Cricket Bat (Full Size SH)",
+      "brand": "SG",
+      "category": "sports",
+      "categoryLabel": "Sports & Fitness",
+      "subcategory": "Cricket, Football & Racket",
+      "price": 18499,
+      "originalPrice": 24999,
+      "discount": 26,
+      "rating": 4.8,
+      "reviewCount": 640,
+      "stockQuantity": 18,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Grade 1 English Willow",
+      "deliveryDays": 2,
+      "freeDelivery": true,
+      "sellerId": "seller-apex",
+      "seller": "Apex Consumer Direct India",
+      "image": "https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Natural Willow with White Chevron Grip"
+      ],
+      "sizes": [
+        "Short Handle (Men's Full Size)"
+      ],
+      "description": "Handcrafted from Grade 1 air-dried English Willow. Features thick 40mm power edges, a pronounced spine profile, and feather-light pickup balance.",
+      "features": [
+        "Handcrafted Grade 1 English Willow",
+        "Thick 39-41mm edges with duckbill toe profile",
+        "Round 12-piece Sarawak cane handle",
+        "Supplied with premium padded bat cover"
+      ]
+    },
+    {
+      "id": "sport-7",
+      "name": "Reebok Professional Heavy Duty Speed Skipping Rope with Ball Bearings",
+      "brand": "Reebok",
+      "category": "sports",
+      "categoryLabel": "Sports & Fitness",
+      "subcategory": "Yoga Mats & Resistance Bands",
+      "price": 899,
+      "originalPrice": 1499,
+      "discount": 40,
+      "rating": 4.7,
+      "reviewCount": 3820,
+      "stockQuantity": 90,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Best Seller",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-apex",
+      "seller": "Apex Consumer Direct India",
+      "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Delta Black"
+      ],
+      "sizes": [
+        "3 Metre Adjustable Steel Cable"
+      ],
+      "description": "Engineered for high-intensity double-unders and cardio conditioning. Dual 360-degree ball bearings ensure frictionless, tangle-free rotation.",
+      "features": [
+        "Dual 360-degree precision ball bearings",
+        "Kink-resistant PVC coated steel wire",
+        "Non-slip ergonomic textured handles",
+        "Easily adjustable cable length for any height"
+      ]
+    },
+    {
+      "id": "sport-8",
+      "name": "Resistance Bands Set 5-Stack with Ankle Straps and Door Anchor",
+      "brand": "Adidas",
+      "category": "sports",
+      "categoryLabel": "Sports & Fitness",
+      "subcategory": "Yoga Mats & Resistance Bands",
+      "price": 1499,
+      "originalPrice": 2499,
+      "discount": 40,
+      "rating": 4.8,
+      "reviewCount": 4120,
+      "stockQuantity": 75,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Home Gym Essential",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-apex",
+      "seller": "Apex Consumer Direct India",
+      "image": "https://images.unsplash.com/photo-1598971861713-54ad16a7e72e?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Multi-Color Stack 10-50 lbs"
+      ],
+      "sizes": [
+        "Full 11-Piece Kit"
+      ],
+      "description": "Versatile full-body workout system up to 150 lbs stackable resistance. 100% natural Malaysian latex tubes with heavy-duty metal carabiners.",
+      "features": [
+        "5 color-coded stackable resistance tubes (10 to 50 lbs)",
+        "Heavy-duty steel carabiners and reinforced nylon webbing",
+        "Cushioned foam handles, ankle straps & door anchor",
+        "Compact waterproof carry bag included"
+      ]
+    },
+    {
+      "id": "sport-9",
+      "name": "Hydro Flask 32 oz Wide Mouth Stainless Steel Insulated Bottle",
+      "brand": "Hydro Flask",
+      "category": "sports",
+      "categoryLabel": "Sports & Fitness",
+      "subcategory": "Athletic Bags & Accessories",
+      "price": 3490,
+      "originalPrice": 4490,
+      "discount": 22,
+      "rating": 4.9,
+      "reviewCount": 3840,
+      "stockQuantity": 50,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "Top Choice",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-apex",
+      "seller": "Apex Consumer Direct India",
+      "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Pacific Blue",
+        "Olive Green",
+        "Snapper Red",
+        "Black"
+      ],
+      "sizes": [
+        "32 oz (946 ml)"
+      ],
+      "description": "TempShield double-wall vacuum insulation keeps drinks ice cold for up to 24 hours or piping hot for 12 hours. Pure pro-grade stainless steel.",
+      "features": [
+        "TempShield vacuum double-wall insulation",
+        "Pro-grade 18/8 stainless steel zero flavor transfer",
+        "Color Last powder coat dishwasher safe",
+        "Leakproof Flex Straw Cap"
+      ]
+    },
+    {
+      "id": "toy-1",
+      "name": "LEGO Star Wars Millennium Falcon 75257 Starship Building Kit",
+      "brand": "LEGO",
+      "category": "toys",
+      "categoryLabel": "Toys & Games",
+      "subcategory": "Building Blocks & LEGO Sets",
+      "price": 13999,
+      "originalPrice": 17999,
+      "discount": 22,
+      "rating": 4.9,
+      "reviewCount": 2890,
+      "stockQuantity": 30,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "Collector Edition",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1585366119957-e9730b6d0f60?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Classic Falcon Gray"
+      ],
+      "sizes": [
+        "1351 Pieces"
+      ],
+      "description": "Iconic Corellian freighter features rotating top and bottom gun turrets, 2 spring-loaded shooters, lowering ramp, and detailed 7 minifigure interior.",
+      "features": [
+        "1,351 authentic LEGO bricks and components",
+        "Includes 7 characters: Finn, Chewbacca, Lando, C-3PO, Boolio, D-O & R2-D2",
+        "Detailed cockpit with removable canopy",
+        "Opening top panels reveal cargo area and Dejarik table"
+      ]
+    },
+    {
+      "id": "toy-2",
+      "name": "Catan Classic Strategy Board Game (Trade, Build, Settle)",
+      "brand": "Catan Studio",
+      "category": "toys",
+      "categoryLabel": "Toys & Games",
+      "subcategory": "Board Games & Puzzles",
+      "price": 3299,
+      "originalPrice": 4299,
+      "discount": 23,
+      "rating": 4.8,
+      "reviewCount": 4620,
+      "stockQuantity": 45,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Family Classic",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Original English Edition"
+      ],
+      "sizes": [
+        "3-4 Players (Ages 10+)"
+      ],
+      "description": "The world-renowned social strategy game. Settle the island of Catan by harvesting lumber, brick, grain, ore, and wool to build roads and settlements.",
+      "features": [
+        "Modular hexagon tile board creates fresh game every time",
+        "Engaging trading and barter dynamic between players",
+        "Includes 19 terrain hexes, 96 resource cards & 16 cities",
+        "Game length: 60-90 minutes"
+      ]
+    },
+    {
+      "id": "toy-3",
+      "name": "Ravensburger 1000-Piece Dolomites Alpine Sunset Jigsaw Puzzle",
+      "brand": "Ravensburger",
+      "category": "toys",
+      "categoryLabel": "Toys & Games",
+      "subcategory": "Board Games & Puzzles",
+      "price": 1299,
+      "originalPrice": 1799,
+      "discount": 28,
+      "rating": 4.9,
+      "reviewCount": 1980,
+      "stockQuantity": 55,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": false,
+      "isTrending": false,
+      "badge": "Premium Quality",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Vibrant Alpine Landscape"
+      ],
+      "sizes": [
+        "1000 Pieces (70 x 50 cm)"
+      ],
+      "description": "Softclick Technology guarantees each piece fits together with precision. Glare-free linen finish paper over extra-thick European cardboard.",
+      "features": [
+        "Softclick precision interlock technology",
+        "Extra-thick blue cardboard backing",
+        "Linen-structured paper prevents glare",
+        "High-resolution scenic photography print"
+      ]
+    },
+    {
+      "id": "toy-4",
+      "name": "Hot Wheels 20-Car Collector Gift Pack with 1:64 Scale Die-Cast",
+      "brand": "Hot Wheels",
+      "category": "toys",
+      "categoryLabel": "Toys & Games",
+      "subcategory": "Remote Control Cars & Drones",
+      "price": 1999,
+      "originalPrice": 2899,
+      "discount": 31,
+      "rating": 4.8,
+      "reviewCount": 5820,
+      "stockQuantity": 70,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "Best Seller",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1594787318286-3d835c1d207f?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Assorted Multi-Color Vehicles"
+      ],
+      "sizes": [
+        "Pack of 20 Die-Cast Cars"
+      ],
+      "description": "An instant collection of 20 different 1:64 scale vehicles with authentic decos and realistic details from muscle cars to exotic hypercars.",
+      "features": [
+        "20 die-cast 1:64 vehicles in one window display box",
+        "Authentic decos and real-rider wheels",
+        "Compatible with all Hot Wheels track sets",
+        "Durable metal body with plastic chassis"
+      ]
+    },
+    {
+      "id": "toy-5",
+      "name": "DJI Tello Quadcopter Drone Powered by Intel for Beginners & STEM",
+      "brand": "DJI",
+      "category": "toys",
+      "categoryLabel": "Toys & Games",
+      "subcategory": "Remote Control Cars & Drones",
+      "price": 9990,
+      "originalPrice": 12990,
+      "discount": 23,
+      "rating": 4.7,
+      "reviewCount": 1420,
+      "stockQuantity": 26,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "Tech Toy",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1508614589041-895b88991e3e?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "White/Black"
+      ],
+      "sizes": [
+        "80g Lightweight"
+      ],
+      "description": "Perform 8D flips, shoot quick videos with EZ Shots, and learn Scratch coding. Powered by Intel 14-core processor and vision positioning.",
+      "features": [
+        "5MP high-definition photos and 720p HD video",
+        "13-minute flight time per battery",
+        "Intel high-performance vision processing",
+        "Scratch block-coding program compatibility"
+      ]
+    },
+    {
+      "id": "toy-6",
+      "name": "Barbie Dreamhouse 3-Story Dollhouse with 75+ Accessories & Pool",
+      "brand": "Barbie",
+      "category": "toys",
+      "categoryLabel": "Toys & Games",
+      "subcategory": "Plush Soft Toys & Dolls",
+      "price": 15499,
+      "originalPrice": 19999,
+      "discount": 23,
+      "rating": 4.8,
+      "reviewCount": 2150,
+      "stockQuantity": 18,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Dream Toy",
+      "deliveryDays": 2,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Signature Pink Dreamhouse"
+      ],
+      "sizes": [
+        "3 Feet Tall x 4 Feet Wide"
+      ],
+      "description": "Features 10 indoor and outdoor living areas, a working elevator, party room with DJ booth, spiral pool slide, and puppy play area.",
+      "features": [
+        "360-degree play across 3 stories and 10 rooms",
+        "Working wheelchair-accessible elevator",
+        "Over 75 authentic lifestyle accessories included",
+        "Integrated lights and realistic sound effects"
+      ]
+    },
+    {
+      "id": "toy-7",
+      "name": "Handcrafted Solid Sheesham Wood Folding Magnetic Chess Set",
+      "brand": "StonKraft",
+      "category": "toys",
+      "categoryLabel": "Toys & Games",
+      "subcategory": "Board Games & Puzzles",
+      "price": 2499,
+      "originalPrice": 3999,
+      "discount": 38,
+      "rating": 4.9,
+      "reviewCount": 3120,
+      "stockQuantity": 40,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Artisan Woodwork",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-lifestyle",
+      "seller": "Trendsetter Lifestyle Retails",
+      "image": "https://images.unsplash.com/photo-1529699211952-734e80c4d42b?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Natural Sheesham & Boxwood"
+      ],
+      "sizes": [
+        "12 x 12 inches (Folding)"
+      ],
+      "description": "Each chess piece is individually hand-carved with internal magnetic studs. The foldable board opens flat with velvet interior piece storage slots.",
+      "features": [
+        "Solid Indian Sheesham (Rosewood) and Boxwood",
+        "Embedded magnets keep pieces steady during travel",
+        "Foldable board doubles as velvet storage case",
+        "3-inch King height with weighted bases"
+      ]
+    },
+    {
+      "id": "toy-8",
+      "name": "STEM Magnetic Building Tiles Set (100 Pieces 3D Clear Colors)",
+      "brand": "PicassoTiles",
+      "category": "toys",
+      "categoryLabel": "Toys & Games",
+      "subcategory": "STEM & Learning Toys",
+      "price": 2999,
+      "originalPrice": 4999,
+      "discount": 40,
+      "rating": 4.8,
+      "reviewCount": 4180,
+      "stockQuantity": 65,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "Parent Approved",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Translucent Rainbow Tiles"
+      ],
+      "sizes": [
+        "100-Piece Set"
+      ],
+      "description": "Spark children's spatial imagination and architectural skills. Powerful ultrasonic welded magnets let kids construct towers, castles, and animals.",
+      "features": [
+        "100 translucent geometric magnetic tiles",
+        "BPA-free non-toxic durable ABS plastic",
+        "Reinforced smooth rounded child-safe corners",
+        "Compatible with all leading magnetic tile brands"
+      ]
+    },
+    {
+      "id": "furn-1",
+      "name": "Herman Miller Aeron Ergonomic Office Chair (Size B Graphite)",
+      "brand": "Herman Miller",
+      "category": "furniture",
+      "categoryLabel": "Furniture & Home Decor",
+      "subcategory": "Ergonomic Office Chairs",
+      "price": 114900,
+      "originalPrice": 129900,
+      "discount": 12,
+      "rating": 4.9,
+      "reviewCount": 1420,
+      "stockQuantity": 15,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "Ergonomic Masterpiece",
+      "deliveryDays": 2,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1580481077195-c546d1bf035f?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Graphite Pellicle",
+        "Mineral White"
+      ],
+      "sizes": [
+        "Size B (Medium)"
+      ],
+      "description": "The definitive ergonomic task chair. 8Z Pellicle breathable mesh distributes weight evenly across 8 zones with adjustable PostureFit SL sacral support.",
+      "features": [
+        "8Z Pellicle elastomeric suspension keeps body cool",
+        "PostureFit SL adjustable dual-pad spinal support",
+        "Fully adjustable 4D armrests with leather pads",
+        "12-year official manufacturer warranty"
+      ]
+    },
+    {
+      "id": "furn-2",
+      "name": "Wakefit Orthopedic Memory Foam King Size Mattress (78x72x8 inch)",
+      "brand": "Wakefit",
+      "category": "furniture",
+      "categoryLabel": "Furniture & Home Decor",
+      "subcategory": "Rugs, Cushions & Furnishings",
+      "price": 14999,
+      "originalPrice": 21999,
+      "discount": 32,
+      "rating": 4.8,
+      "reviewCount": 8420,
+      "stockQuantity": 40,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "10-Year Warranty",
+      "deliveryDays": 2,
+      "freeDelivery": true,
+      "sellerId": "seller-lifestyle",
+      "seller": "Trendsetter Lifestyle Retails",
+      "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "White/Navy Border"
+      ],
+      "sizes": [
+        "King 78x72 (8 inch)"
+      ],
+      "description": "Engineered with Next-Gen memory foam and high-resilience base foam for body-contouring orthopedic spine alignment and motion isolation.",
+      "features": [
+        "High-density orthopedic memory foam core",
+        "Zero motion transfer for undisturbed sleep",
+        "Breathable GSM jacquard zipper cover",
+        "10-year direct manufacturer warranty"
+      ]
+    },
+    {
+      "id": "furn-3",
+      "name": "Urban Ladder Solid Sheesham Wood 3-Seater Fabric Sofa - Slate Gray",
+      "brand": "Urban Ladder",
+      "category": "furniture",
+      "categoryLabel": "Furniture & Home Decor",
+      "subcategory": "Living Room Sofas & Recliners",
+      "price": 27999,
+      "originalPrice": 39999,
+      "discount": 30,
+      "rating": 4.7,
+      "reviewCount": 1650,
+      "stockQuantity": 20,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "Solid Wood",
+      "deliveryDays": 3,
+      "freeDelivery": true,
+      "sellerId": "seller-lifestyle",
+      "seller": "Trendsetter Lifestyle Retails",
+      "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Slate Gray Fabric",
+        "Indigo Blue",
+        "Warm Sand"
+      ],
+      "sizes": [
+        "3-Seater (78 x 33 in)"
+      ],
+      "description": "Solid Sheesham hardwood framework with tapered legs. Deep high-density foam cushions wrapped in stain-resistant premium woven fabric upholstery.",
+      "features": [
+        "Solid Indian Sheesham kiln-dried wood frame",
+        "High-resilience 32-density foam cushioning",
+        "Rub-tested 350 GSM anti-sag fabric",
+        "Comes pre-assembled with 3-year warranty"
+      ]
+    },
+    {
+      "id": "furn-4",
+      "name": "IKEA BEKANT Motorized Electric Sit-Stand Desk (160x80 cm)",
+      "brand": "IKEA",
+      "category": "furniture",
+      "categoryLabel": "Furniture & Home Decor",
+      "subcategory": "Study & Computer Desks",
+      "price": 39990,
+      "originalPrice": 49990,
+      "discount": 20,
+      "rating": 4.8,
+      "reviewCount": 940,
+      "stockQuantity": 22,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "Smart Workstation",
+      "deliveryDays": 2,
+      "freeDelivery": true,
+      "sellerId": "seller-lifestyle",
+      "seller": "Trendsetter Lifestyle Retails",
+      "image": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Oak Veneer / White Legs",
+        "Black Ash / Black Legs"
+      ],
+      "sizes": [
+        "160 x 80 cm"
+      ],
+      "description": "Transition smoothly between sitting and standing with smooth dual electric motors. Heavy-duty particleboard tabletop with scratch-resistant melamine.",
+      "features": [
+        "Whisper-quiet dual electric lift motors",
+        "Adjustable height range from 65 to 125 cm",
+        "Integrated under-desk cable management net",
+        "10-year official IKEA guarantee"
+      ]
+    },
+    {
+      "id": "furn-5",
+      "name": "Bohemian Hand-Woven Wool & Cotton Moroccan Geometric Area Rug",
+      "brand": "Jaipur Rugs",
+      "category": "furniture",
+      "categoryLabel": "Furniture & Home Decor",
+      "subcategory": "Rugs, Cushions & Furnishings",
+      "price": 6499,
+      "originalPrice": 9999,
+      "discount": 35,
+      "rating": 4.8,
+      "reviewCount": 1480,
+      "stockQuantity": 35,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": false,
+      "isTrending": true,
+      "badge": "Handcrafted",
+      "deliveryDays": 2,
+      "freeDelivery": true,
+      "sellerId": "seller-lifestyle",
+      "seller": "Trendsetter Lifestyle Retails",
+      "image": "https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Ivory & Charcoal Diamond"
+      ],
+      "sizes": [
+        "5 x 7 Feet",
+        "6 x 9 Feet"
+      ],
+      "description": "Hand-loomed in Bhadohi by artisan carpet weavers. Premium New Zealand wool blended with organic cotton provides plush foot comfort.",
+      "features": [
+        "80% Natural Wool, 20% Organic Cotton",
+        "Artisanal hand-knotted flatweave with braided fringe",
+        "Naturally stain-resistant and durable",
+        "Shed-resistant construction"
+      ]
+    },
+    {
+      "id": "furn-6",
+      "name": "Mid-Century Modern Velvet Accent Armchair with Brass Legs",
+      "brand": "West Elm",
+      "category": "furniture",
+      "categoryLabel": "Furniture & Home Decor",
+      "subcategory": "Living Room Sofas & Recliners",
+      "price": 18990,
+      "originalPrice": 26990,
+      "discount": 30,
+      "rating": 4.9,
+      "reviewCount": 760,
+      "stockQuantity": 18,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": false,
+      "isTrending": true,
+      "badge": "Designer Accent",
+      "deliveryDays": 2,
+      "freeDelivery": true,
+      "sellerId": "seller-lifestyle",
+      "seller": "Trendsetter Lifestyle Retails",
+      "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Emerald Green Velvet",
+        "Burnt Rust",
+        "Midnight Navy"
+      ],
+      "sizes": [
+        "Single Accent Chair"
+      ],
+      "description": "Channel-tufted curved barrel back wrapped in liquid-resistant performance velvet. Tapered metal legs finished in gleaming satin brass.",
+      "features": [
+        "Luxe stain-resistant performance velvet",
+        "Barrel back with channel tufting",
+        "Sturdy kiln-dried hardwood frame",
+        "Electroplated satin brass metal legs"
+      ]
+    },
+    {
+      "id": "furn-7",
+      "name": "Philips Smart Hue Signe Gradient LED Floor Lamp (16 Million Colors)",
+      "brand": "Philips",
+      "category": "furniture",
+      "categoryLabel": "Furniture & Home Decor",
+      "subcategory": "Ambient Lighting & Lamps",
+      "price": 21999,
+      "originalPrice": 28999,
+      "discount": 24,
+      "rating": 4.8,
+      "reviewCount": 620,
+      "stockQuantity": 20,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Smart Lighting",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Black Aluminum"
+      ],
+      "sizes": [
+        "57-inch Standing Lamp"
+      ],
+      "description": "Blends multiple colors of light simultaneously along a single corner standing lamp. Syncs with Spotify music, gaming, and Alexa/Google Home.",
+      "features": [
+        "Blends multiple colors across gradient bar simultaneously",
+        "Syncs with TV, movies and PC games via Hue Bridge",
+        "16 million colors + tunable warm to cool white",
+        "Voice control via Alexa, Apple HomeKit & Google"
+      ]
+    },
+    {
+      "id": "furn-8",
+      "name": "Solid Teak Wood 3-Tier Wall Hanging Floating Display Shelves",
+      "brand": "Home Centre",
+      "category": "furniture",
+      "categoryLabel": "Furniture & Home Decor",
+      "subcategory": "Wall Decor, Mirrors & Clocks",
+      "price": 1799,
+      "originalPrice": 2999,
+      "discount": 40,
+      "rating": 4.7,
+      "reviewCount": 2840,
+      "stockQuantity": 65,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Popular Pick",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-lifestyle",
+      "seller": "Trendsetter Lifestyle Retails",
+      "image": "https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Natural Teak Finish"
+      ],
+      "sizes": [
+        "Set of 3 (18, 24, 30 inches)"
+      ],
+      "description": "Solid natural teak wood floating shelves with invisible heavy-duty steel mounting brackets. Supports up to 15 kg per shelf for books, plants, and photos.",
+      "features": [
+        "100% Solid Natural Teak Wood",
+        "Concealed heavy-duty steel mounting hardware included",
+        "Waterproof polyurethane protective satin coat",
+        "Beveled edge minimalist floating aesthetic"
+      ]
+    },
+    {
+      "id": "furn-9",
+      "name": "Minimalist 24-inch Round Sunburst Metal Wall Clock - Matte Black",
+      "brand": "IKEA",
+      "category": "furniture",
+      "categoryLabel": "Furniture & Home Decor",
+      "subcategory": "Wall Decor, Mirrors & Clocks",
+      "price": 1499,
+      "originalPrice": 2499,
+      "discount": 40,
+      "rating": 4.6,
+      "reviewCount": 1950,
+      "stockQuantity": 45,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": false,
+      "isTrending": false,
+      "badge": "Trending Decor",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-lifestyle",
+      "seller": "Trendsetter Lifestyle Retails",
+      "image": "https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Matte Black & Gold Hands"
+      ],
+      "sizes": [
+        "24-inch Diameter"
+      ],
+      "description": "Silent non-ticking quartz movement. Modern geometric sunburst spokes crafted from welded powder-coated iron with contrasting brushed brass hands.",
+      "features": [
+        "Silent sweep quartz mechanism (zero ticking)",
+        "24-inch oversized architectural metal framework",
+        "Powder-coated rust-proof iron construction",
+        "Runs on a single AA battery"
+      ]
+    },
+    {
+      "id": "book-1",
+      "name": "Atomic Habits by James Clear (Hardcover Collector's Edition)",
+      "brand": "Random House",
+      "category": "books",
+      "categoryLabel": "Books & Stationery",
+      "subcategory": "Business, Finance & Self-Help",
+      "price": 699,
+      "originalPrice": 999,
+      "discount": 30,
+      "rating": 4.9,
+      "reviewCount": 18450,
+      "stockQuantity": 180,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "Global #1 Bestseller",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Hardcover White"
+      ],
+      "sizes": [
+        "Hardcover 320 Pages"
+      ],
+      "description": "An easy and proven way to build good habits and break bad ones. Over 15 million copies sold globally. Groundbreaking framework for personal growth.",
+      "features": [
+        "Hardcover clothbound collector's edition",
+        "Includes habit loop tracking templates",
+        "High-opacity acid-free book paper",
+        "Ribbon bookmark included"
+      ]
+    },
+    {
+      "id": "book-2",
+      "name": "The Psychology of Money by Morgan Housel (Deluxe Hardcover)",
+      "brand": "Harriman House",
+      "category": "books",
+      "categoryLabel": "Books & Stationery",
+      "subcategory": "Business, Finance & Self-Help",
+      "price": 499,
+      "originalPrice": 799,
+      "discount": 38,
+      "rating": 4.9,
+      "reviewCount": 14200,
+      "stockQuantity": 150,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Bestseller",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Deluxe Navy"
+      ],
+      "sizes": [
+        "Hardcover 256 Pages"
+      ],
+      "description": "19 short stories exploring the strange ways people think about money and teaching you how to make better sense of one of life's most important topics.",
+      "features": [
+        "Timeless lessons on wealth, greed, and happiness",
+        "Clear, non-technical financial wisdom",
+        "Debossed gold foil title stamping",
+        "Bestselling financial masterpiece"
+      ]
+    },
+    {
+      "id": "book-3",
+      "name": "Moleskine Classic Leather Hardcover Dotted Journal (Large A5)",
+      "brand": "Moleskine",
+      "category": "books",
+      "categoryLabel": "Books & Stationery",
+      "subcategory": "Leather Journals & Planners",
+      "price": 1899,
+      "originalPrice": 2499,
+      "discount": 24,
+      "rating": 4.8,
+      "reviewCount": 4210,
+      "stockQuantity": 80,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Writer's Choice",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-lifestyle",
+      "seller": "Trendsetter Lifestyle Retails",
+      "image": "https://images.unsplash.com/photo-1544716278-e513176f20b5?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Classic Black",
+        "Sapphire Blue",
+        "Scarlet Red"
+      ],
+      "sizes": [
+        "Large A5 (5 x 8.25 in) 240 Pages"
+      ],
+      "description": "The legendary notebook used by artists and thinkers. Features ivory-colored 70 gsm acid-free dotted paper, elastic closure, and expandable inner pocket.",
+      "features": [
+        "70 g/m² acid-free ivory dotted paper",
+        "Durable thread-bound binding lies 180° flat",
+        "Expandable back pocket for notes and receipts",
+        "Classic elastic closure band and ribbon marker"
+      ]
+    },
+    {
+      "id": "book-4",
+      "name": "Lamy Safari Charcoal Fountain Pen with Fine Stainless Nib",
+      "brand": "Lamy",
+      "category": "books",
+      "categoryLabel": "Books & Stationery",
+      "subcategory": "Fine Art & Calligraphy",
+      "price": 2490,
+      "originalPrice": 3200,
+      "discount": 22,
+      "rating": 4.9,
+      "reviewCount": 3120,
+      "stockQuantity": 60,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "German Writing",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-lifestyle",
+      "seller": "Trendsetter Lifestyle Retails",
+      "image": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Charcoal Matte Black",
+        "Vista Clear",
+        "Shiny Petrol"
+      ],
+      "sizes": [
+        "Fine (F) Nib"
+      ],
+      "description": "Made in Heidelberg, Germany. Robust ABS plastic with distinctive recessed grip zone for effortless writing. Features spring-action bronze wire clip.",
+      "features": [
+        "Sturdy shatterproof ABS plastic casing",
+        "Ergonomically contoured triangular grip",
+        "Precision laser-cut stainless steel nib",
+        "Includes blue T10 ink cartridge & converter compatible"
+      ]
+    },
+    {
+      "id": "book-5",
+      "name": "Tombow Dual Brush Pens Art Marker Set (10 Pastel Colors)",
+      "brand": "Tombow",
+      "category": "books",
+      "categoryLabel": "Books & Stationery",
+      "subcategory": "Fine Art & Calligraphy",
+      "price": 1999,
+      "originalPrice": 2799,
+      "discount": 29,
+      "rating": 4.9,
+      "reviewCount": 2680,
+      "stockQuantity": 45,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": false,
+      "isTrending": true,
+      "badge": "Artist Essential",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-lifestyle",
+      "seller": "Trendsetter Lifestyle Retails",
+      "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Pastel Palette Set"
+      ],
+      "sizes": [
+        "Pack of 10 Brush Pens"
+      ],
+      "description": "Flexible brush tip and fine tip in one marker. Water-based ink blends effortlessly for brush lettering, watercolor painting, journaling, and sketching.",
+      "features": [
+        "Durable nylon flexible brush tip + 0.8mm bullet tip",
+        "Water-based blendable non-bleeding ink",
+        "Self-cleaning tips after color blending",
+        "Ideal for modern calligraphy and illustration"
+      ]
+    },
+    {
+      "id": "book-6",
+      "name": "Sapiens: A Brief History of Humankind by Yuval Noah Harari",
+      "brand": "Harper",
+      "category": "books",
+      "categoryLabel": "Books & Stationery",
+      "subcategory": "Bestselling Novels & Fiction",
+      "price": 449,
+      "originalPrice": 699,
+      "discount": 36,
+      "rating": 4.8,
+      "reviewCount": 16890,
+      "stockQuantity": 120,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Must Read",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Paperback"
+      ],
+      "sizes": [
+        "512 Pages"
+      ],
+      "description": "100,000 years ago, at least six human species inhabited the earth. Today there is just one. Us. Sapiens. How did our species succeed in the battle for dominance?",
+      "features": [
+        "Sunday Times and New York Times #1 Bestseller",
+        "Explores Cognitive, Agricultural, and Scientific Revolutions",
+        "Over 25 million copies sold in 65 languages",
+        "Highly acclaimed by Barack Obama and Bill Gates"
+      ]
+    },
+    {
+      "id": "book-7",
+      "name": "Derwent Academy Heavyweight A4 Spiral Watercolor Pad (300 gsm)",
+      "brand": "Derwent",
+      "category": "books",
+      "categoryLabel": "Books & Stationery",
+      "subcategory": "Fine Art & Calligraphy",
+      "price": 899,
+      "originalPrice": 1399,
+      "discount": 36,
+      "rating": 4.7,
+      "reviewCount": 1840,
+      "stockQuantity": 65,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": false,
+      "isTrending": false,
+      "badge": "Art Supplies",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-lifestyle",
+      "seller": "Trendsetter Lifestyle Retails",
+      "image": "https://images.unsplash.com/photo-1544717305-2782549b5136?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Cold Pressed Natural White"
+      ],
+      "sizes": [
+        "A4 (12 sheets 300 gsm)"
+      ],
+      "description": "Cold-pressed textured heavy 300 gsm watercolor paper withstands heavy washes without buckling or warping. Micro-perforated sheets for easy tearing.",
+      "features": [
+        "Heavyweight 300 gsm (140 lb) cold-pressed cotton paper",
+        "Acid-free paper prevents yellowing over time",
+        "Sturdy twin-wire spiral binding",
+        "Handles gouache, watercolor, acrylic, and ink"
+      ]
+    },
+    {
+      "id": "book-8",
+      "name": "Executive Faux Leather Multi-Compartment Desk Organizer Caddy",
+      "brand": "AmazonBasics",
+      "category": "books",
+      "categoryLabel": "Books & Stationery",
+      "subcategory": "Office Stationery & Organizers",
+      "price": 1199,
+      "originalPrice": 1899,
+      "discount": 37,
+      "rating": 4.8,
+      "reviewCount": 3410,
+      "stockQuantity": 90,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Desk Upgrade",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-lifestyle",
+      "seller": "Trendsetter Lifestyle Retails",
+      "image": "https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Rich Espresso Brown",
+        "Executive Black"
+      ],
+      "sizes": [
+        "6 Compartments + Pull-out Drawer"
+      ],
+      "description": "Keep your workspace clutter-free. Crafted with rich faux leather exterior, white contrast stitching, and soft velvet-lined compartments.",
+      "features": [
+        "6 divided compartments for pens, phones, and stationery",
+        "Concealed pull-out drawer for paper clips and USB drives",
+        "Luxurious faux leather with contrast saddle stitching",
+        "Non-scratch soft felt bottom protects desk surfaces"
+      ]
+    },
+    {
+      "id": "foot-1",
+      "name": "Nike Air Zoom Pegasus 40 Running Shoes - Triple Black",
+      "brand": "Nike",
+      "category": "footwear",
+      "categoryLabel": "Footwear",
+      "subcategory": "Performance Running Shoes",
+      "price": 8995,
+      "originalPrice": 11895,
+      "discount": 24,
+      "rating": 4.9,
+      "reviewCount": 4890,
+      "stockQuantity": 55,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "Runner's Choice",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-apex",
+      "seller": "Apex Consumer Direct India",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Triple Black",
+        "White/Racer Blue",
+        "Volt Green"
+      ],
+      "sizes": [
+        "UK 7",
+        "UK 8",
+        "UK 9",
+        "UK 10",
+        "UK 11"
+      ],
+      "description": "The workhorse with wings returns. Nike React foam technology coupled with two Zoom Air units gives an energized, springy push-off feel on roads.",
+      "features": [
+        "Dual Zoom Air units (forefoot and heel)",
+        "Nike React lightweight resilient foam",
+        "Engineered single-layer mesh for supreme breathability",
+        "Waffle-inspired outsole pattern for traction"
+      ]
+    },
+    {
+      "id": "foot-2",
+      "name": "Adidas Originals Stan Smith Classic Leather Sneakers - White/Green",
+      "brand": "Adidas",
+      "category": "footwear",
+      "categoryLabel": "Footwear",
+      "subcategory": "Men's Sneakers & Casuals",
+      "price": 4999,
+      "originalPrice": 7999,
+      "discount": 38,
+      "rating": 4.8,
+      "reviewCount": 6120,
+      "stockQuantity": 70,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "Streetwear Icon",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-apex",
+      "seller": "Apex Consumer Direct India",
+      "image": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Cloud White / Fairway Green",
+        "All White",
+        "White / Navy"
+      ],
+      "sizes": [
+        "UK 6",
+        "UK 7",
+        "UK 8",
+        "UK 9",
+        "UK 10",
+        "UK 11"
+      ],
+      "description": "Timeless clean tennis sneaker aesthetic. Crisp white synthetic leather upper with perforated 3-Stripes and green heel badge detail.",
+      "features": [
+        "Smooth durable Primegreen vegan upper",
+        "Perforated 3-Stripes ventilation",
+        "Ortholite sockliner comfort",
+        "Signature Stan Smith tongue portrait"
+      ]
+    },
+    {
+      "id": "foot-3",
+      "name": "Puma Suede Classic XXI Low-Top Lifestyle Sneakers",
+      "brand": "Puma",
+      "category": "footwear",
+      "categoryLabel": "Footwear",
+      "subcategory": "Men's Sneakers & Casuals",
+      "price": 3899,
+      "originalPrice": 6999,
+      "discount": 44,
+      "rating": 4.7,
+      "reviewCount": 3410,
+      "stockQuantity": 60,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Super Deal",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-apex",
+      "seller": "Apex Consumer Direct India",
+      "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Puma Black / White",
+        "Peacoat Navy",
+        "Cabernet Red"
+      ],
+      "sizes": [
+        "UK 7",
+        "UK 8",
+        "UK 9",
+        "UK 10"
+      ],
+      "description": "The street icon that defined breakdancing culture. Full suede leather upper with synthetic lining and comfortable rubber midsole.",
+      "features": [
+        "100% Genuine velvety suede leather",
+        "Rubber midsole and textured grip outsole",
+        "Puma Formstrip on lateral sides",
+        "Includes two lace sets"
+      ]
+    },
+    {
+      "id": "foot-4",
+      "name": "Clarks Tilden Cap Genuine Leather Formal Oxford Brogues",
+      "brand": "Clarks",
+      "category": "footwear",
+      "categoryLabel": "Footwear",
+      "subcategory": "Formal Leather Oxfords",
+      "price": 4499,
+      "originalPrice": 6999,
+      "discount": 36,
+      "rating": 4.8,
+      "reviewCount": 2190,
+      "stockQuantity": 40,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Executive Formal",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-apex",
+      "seller": "Apex Consumer Direct India",
+      "image": "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Dark Tan Burnished",
+        "Polished Black"
+      ],
+      "sizes": [
+        "UK 7",
+        "UK 8",
+        "UK 9",
+        "UK 10",
+        "UK 11"
+      ],
+      "description": "Sharp cap-toe oxford tailored from rich full-grain leather. OrthoLite footbed with Cushion Soft technology absorbs step shock for all-day office comfort.",
+      "features": [
+        "Full-grain burnished cowhide leather",
+        "OrthoLite high-cushion foam insole",
+        "Discreet elastic side gores for easy slip-on",
+        "Durable thermoplastic rubber dress sole"
+      ]
+    },
+    {
+      "id": "foot-5",
+      "name": "Aldo Women's Stessy Pointed-Toe Stiletto Party Pumps (4-inch)",
+      "brand": "Aldo",
+      "category": "footwear",
+      "categoryLabel": "Footwear",
+      "subcategory": "Women's Heels & Party Flats",
+      "price": 4999,
+      "originalPrice": 8999,
+      "discount": 44,
+      "rating": 4.8,
+      "reviewCount": 1840,
+      "stockQuantity": 30,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": false,
+      "isTrending": true,
+      "badge": "Glamour Pick",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-lifestyle",
+      "seller": "Trendsetter Lifestyle Retails",
+      "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Nude Gloss Patent",
+        "Midnight Black",
+        "Metallic Gold"
+      ],
+      "sizes": [
+        "Euro 36",
+        "Euro 37",
+        "Euro 38",
+        "Euro 39",
+        "Euro 40"
+      ],
+      "description": "The quintessential high-fashion stiletto heel. Features clean lines, elongated pointed toe, and pillow walk dual-density footbed cushioning.",
+      "features": [
+        "High-shine glossy patent upper",
+        "Pillow Walk dual-density foam comfort sole",
+        "4-inch (10 cm) slender stiletto heel",
+        "Slip-resistant rubber heel cap"
+      ]
+    },
+    {
+      "id": "foot-6",
+      "name": "Birkenstock Arizona Birko-Flor Dual Strap Orthopedic Sandals",
+      "brand": "Birkenstock",
+      "category": "footwear",
+      "categoryLabel": "Footwear",
+      "subcategory": "Orthopedic Comfort Sandals",
+      "price": 5990,
+      "originalPrice": 6990,
+      "discount": 14,
+      "rating": 4.9,
+      "reviewCount": 5420,
+      "stockQuantity": 45,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "Footbed Comfort",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-apex",
+      "seller": "Apex Consumer Direct India",
+      "image": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Mocha Brown",
+        "Black Matte",
+        "White"
+      ],
+      "sizes": [
+        "EU 40",
+        "EU 41",
+        "EU 42",
+        "EU 43",
+        "EU 44"
+      ],
+      "description": "Legendary anatomical cork-latex footbed conforms to the shape of your foot with wear. Dual adjustable straps with metal pin buckles.",
+      "features": [
+        "Anatomically shaped natural cork-latex footbed",
+        "Birko-Flor tear-resistant synthetic upper",
+        "Suede footbed lining absorbs moisture",
+        "Lightweight shock-absorbing EVA sole"
+      ]
+    },
+    {
+      "id": "foot-7",
+      "name": "Timberland 6-Inch Premium Waterproof Leather Outdoor Boots",
+      "brand": "Timberland",
+      "category": "footwear",
+      "categoryLabel": "Footwear",
+      "subcategory": "Hiking & Outdoor Boots",
+      "price": 13990,
+      "originalPrice": 17990,
+      "discount": 22,
+      "rating": 4.8,
+      "reviewCount": 1680,
+      "stockQuantity": 25,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Heritage Boot",
+      "deliveryDays": 2,
+      "freeDelivery": true,
+      "sellerId": "seller-apex",
+      "seller": "Apex Consumer Direct India",
+      "image": "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Wheat Nubuck Gold",
+        "Blackout Leather"
+      ],
+      "sizes": [
+        "UK 7",
+        "UK 8",
+        "UK 9",
+        "UK 10"
+      ],
+      "description": "The original waterproof yellow boot introduced 50 years ago. Direct-attach seam-sealed waterproof nubuck leather with 400g PrimaLoft insulation.",
+      "features": [
+        "Seam-sealed waterproof construction",
+        "Premium Timberland full-grain nubuck leather",
+        "400 grams PrimaLoft warm insulation",
+        "Heavy rubber lug outsole for all-terrain traction"
+      ]
+    },
+    {
+      "id": "foot-8",
+      "name": "Vans Old Skool Suede & Canvas Skate Shoes - Black/White",
+      "brand": "Vans",
+      "category": "footwear",
+      "categoryLabel": "Footwear",
+      "subcategory": "Men's Sneakers & Casuals",
+      "price": 3799,
+      "originalPrice": 4999,
+      "discount": 24,
+      "rating": 4.8,
+      "reviewCount": 4890,
+      "stockQuantity": 65,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Skate Classic",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-apex",
+      "seller": "Apex Consumer Direct India",
+      "image": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Black / White Side Stripe",
+        "True White",
+        "Navy Blue"
+      ],
+      "sizes": [
+        "UK 6",
+        "UK 7",
+        "UK 8",
+        "UK 9",
+        "UK 10"
+      ],
+      "description": "First to bare the iconic Vans side stripe. Low-top lace-up with durable canvas and suede uppers, re-enforced toecaps, and signature rubber waffle soles.",
+      "features": [
+        "Sturdy suede and 10 oz canvas uppers",
+        "Re-enforced toe caps withstand repeat wear",
+        "Padded collars for support and flexibility",
+        "Signature rubber waffle tread pattern"
+      ]
+    },
+    {
+      "id": "foot-9",
+      "name": "Nike Air Jordan 1 Mid Basketball Retro High-Tops",
+      "brand": "Nike",
+      "category": "footwear",
+      "categoryLabel": "Footwear",
+      "subcategory": "Men's Sneakers & Casuals",
+      "price": 11495,
+      "originalPrice": 12995,
+      "discount": 12,
+      "rating": 4.9,
+      "reviewCount": 3950,
+      "stockQuantity": 30,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "Grail Sneaker",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-apex",
+      "seller": "Apex Consumer Direct India",
+      "image": "https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Chicago Red/Black/White",
+        "Smoke Grey",
+        "Bred Toe"
+      ],
+      "sizes": [
+        "UK 7",
+        "UK 8",
+        "UK 9",
+        "UK 10",
+        "UK 11"
+      ],
+      "description": "Inspired by the original 1985 AJ1. Features genuine leather panels, encapsulated Air-Sole cushioning in heel, and classic Wings logo on ankle collar.",
+      "features": [
+        "Genuine and synthetic leather upper",
+        "Encapsulated Nike Air-Sole heel unit",
+        "Rubber cupsole with deep flex grooves",
+        "Debossed iconic Air Jordan Wings insignia"
+      ]
+    },
+    {
+      "id": "jewel-1",
+      "name": "GIVA 925 Sterling Silver Zircon Solitaire Pendant with Chain",
+      "brand": "GIVA",
+      "category": "jewellery",
+      "categoryLabel": "Jewellery & Accessories",
+      "subcategory": "Sterling Silver 925 Jewellery",
+      "price": 1699,
+      "originalPrice": 3299,
+      "discount": 48,
+      "rating": 4.8,
+      "reviewCount": 5210,
+      "stockQuantity": 85,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "Best Seller",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Pure Silver with Rhodium Polish",
+        "Rose Gold Plated"
+      ],
+      "sizes": [
+        "16 + 2 inch Adjustable Chain"
+      ],
+      "description": "Handcrafted from pure 925 Sterling Silver stamped with 925 hallmarking. Centered with an AAA+ Grade Swiss Zircon solitaire with rhodium plating.",
+      "features": [
+        "925 Sterling Silver with Authenticity Certificate",
+        "Rhodium e-coat prevents tarnishing",
+        "AAA+ quality faceted Swiss Zircon crystal",
+        "Luxury gift box and jewelry care card included"
+      ]
+    },
+    {
+      "id": "jewel-2",
+      "name": "Ray-Ban Aviator Classic Polarized Sunglasses (Gold Frame / Green G-15)",
+      "brand": "Ray-Ban",
+      "category": "jewellery",
+      "categoryLabel": "Jewellery & Accessories",
+      "subcategory": "Polarized Sunglasses",
+      "price": 9490,
+      "originalPrice": 11990,
+      "discount": 21,
+      "rating": 4.9,
+      "reviewCount": 3840,
+      "stockQuantity": 40,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Timeless Classic",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Polished Gold Frame / G-15 Green Lens",
+        "Gunmetal / Polarized Grey"
+      ],
+      "sizes": [
+        "Standard 58mm"
+      ],
+      "description": "Originally designed for U.S. aviators in 1937. Legendary teardrop shaped crystal lenses block 99% of reflected glare with 100% UV protection.",
+      "features": [
+        "Polarized crystal glass G-15 lenses",
+        "Monel metal frame with adjustable silicone nose pads",
+        "100% UVA & UVB radiation protection",
+        "Handcrafted in Italy with genuine leather case"
+      ]
+    },
+    {
+      "id": "jewel-3",
+      "name": "Fossil Grant Chronograph Blue Dial Brown Leather Watch",
+      "brand": "Fossil",
+      "category": "jewellery",
+      "categoryLabel": "Jewellery & Accessories",
+      "subcategory": "Luxury Analog & Chrono Watches",
+      "price": 8495,
+      "originalPrice": 12495,
+      "discount": 32,
+      "rating": 4.8,
+      "reviewCount": 4120,
+      "stockQuantity": 48,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "Popular Pick",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Ocean Blue Dial / Luggage Brown Strap"
+      ],
+      "sizes": [
+        "44mm Stainless Case"
+      ],
+      "description": "Vintage-inspired Roman numeral markers set against a rich sunray blue dial. 3-subdial stopwatch chronograph movement on supple leather strap.",
+      "features": [
+        "44mm stainless steel case with mineral crystal",
+        "Japanese quartz chronograph stopwatch movement",
+        "Interchangeable 22mm genuine leather strap",
+        "Water resistant to 50 meters (165 feet)"
+      ]
+    },
+    {
+      "id": "jewel-4",
+      "name": "Bellroy Slim Sleeve RFID-Blocking Full Grain Leather Wallet",
+      "brand": "Bellroy",
+      "category": "jewellery",
+      "categoryLabel": "Jewellery & Accessories",
+      "subcategory": "Genuine Leather Wallets & Belts",
+      "price": 5900,
+      "originalPrice": 7500,
+      "discount": 21,
+      "rating": 4.9,
+      "reviewCount": 2140,
+      "stockQuantity": 35,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Slim Minimalism",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-lifestyle",
+      "seller": "Trendsetter Lifestyle Retails",
+      "image": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Cocoa Brown",
+        "Obsidian Black",
+        "Caramel Tan"
+      ],
+      "sizes": [
+        "Holds 4-12 Cards"
+      ],
+      "description": "Eliminates pocket bulk. Holds folded bills and cards with two quick-access slots plus a pull-tab storage pocket for infrequently used cards.",
+      "features": [
+        "Premium environmentally certified leather",
+        "RFID lining protects against card skimming",
+        "Pull tab for easy card access without stretching",
+        "Ultra-slim 10mm silhouette fits front pocket"
+      ]
+    },
+    {
+      "id": "jewel-5",
+      "name": "Tommy Hilfiger Men's Reversible Genuine Leather Belt (Brown/Black)",
+      "brand": "Tommy Hilfiger",
+      "category": "jewellery",
+      "categoryLabel": "Jewellery & Accessories",
+      "subcategory": "Genuine Leather Wallets & Belts",
+      "price": 2199,
+      "originalPrice": 3499,
+      "discount": 37,
+      "rating": 4.7,
+      "reviewCount": 3840,
+      "stockQuantity": 65,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "2-in-1 Value",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-lifestyle",
+      "seller": "Trendsetter Lifestyle Retails",
+      "image": "https://images.unsplash.com/photo-1624222247344-550fb60583dc?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Reversible Black/Brown with Brushed Buckle"
+      ],
+      "sizes": [
+        "32",
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "description": "100% split cowhide leather belt with rotating twist buckle. Flip effortlessly between formal black and casual warm cognac brown.",
+      "features": [
+        "100% Genuine full leather strap (35mm width)",
+        "Smooth rotating metal buckle mechanism",
+        "Engraved Tommy Hilfiger flag logo on keeper",
+        "Fits business suits and casual denim"
+      ]
+    },
+    {
+      "id": "jewel-6",
+      "name": "American Tourister 3-Piece Hardside Polycarbonate Luggage Set",
+      "brand": "American Tourister",
+      "category": "jewellery",
+      "categoryLabel": "Jewellery & Accessories",
+      "subcategory": "Travel Backpacks & Duffles",
+      "price": 11999,
+      "originalPrice": 24999,
+      "discount": 52,
+      "rating": 4.8,
+      "reviewCount": 4210,
+      "stockQuantity": 30,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "52% Off Super Deal",
+      "deliveryDays": 2,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1565026057447-bc90a3dceb87?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Teal Blue",
+        "Gunmetal Grey",
+        "Rose Gold"
+      ],
+      "sizes": [
+        "3-Piece Set (Cabin 55cm, Medium 68cm, Large 79cm)"
+      ],
+      "description": "Ultra-strong scratch-resistant 100% polycarbonate shells with 360-degree silent dual spinner wheels, TSA recessed lock, and expandable volume.",
+      "features": [
+        "100% Polycarbonate impact-flex shell",
+        "TSA recessed 3-digit combination lock",
+        "360-degree multi-directional dual wheels",
+        "3-year international manufacturer warranty"
+      ]
+    },
+    {
+      "id": "jewel-7",
+      "name": "Tanishq 18KT Rose Gold Diamond Studded Floral Earrings",
+      "brand": "Tanishq",
+      "category": "jewellery",
+      "categoryLabel": "Jewellery & Accessories",
+      "subcategory": "Fashion Necklaces & Rings",
+      "price": 24990,
+      "originalPrice": 28990,
+      "discount": 14,
+      "rating": 4.9,
+      "reviewCount": 940,
+      "stockQuantity": 18,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Certified Diamond",
+      "deliveryDays": 2,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "18KT Rose Gold with SI2-GH Diamonds"
+      ],
+      "sizes": [
+        "Pair (Screw Back)"
+      ],
+      "description": "Exquisite everyday elegance. Crafted from BIS hallmarked 18KT Rose Gold set with certified round brilliant natural diamonds.",
+      "features": [
+        "BIS Hallmarked 18 Karat Rose Gold",
+        "IGI certified natural round diamonds (0.16 ct)",
+        "Secure screw-post back closure",
+        "Includes certificate of authenticity & buyback guarantee"
+      ]
+    },
+    {
+      "id": "jewel-8",
+      "name": "Michael Kors Jet Set Large Saffiano Leather Women's Crossbody Bag",
+      "brand": "Michael Kors",
+      "category": "jewellery",
+      "categoryLabel": "Jewellery & Accessories",
+      "subcategory": "Travel Backpacks & Duffles",
+      "price": 13990,
+      "originalPrice": 19990,
+      "discount": 30,
+      "rating": 4.8,
+      "reviewCount": 1650,
+      "stockQuantity": 24,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": false,
+      "isTrending": true,
+      "badge": "Designer Handbag",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-lifestyle",
+      "seller": "Trendsetter Lifestyle Retails",
+      "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Luggage Brown",
+        "Signature Black",
+        "Soft Pink"
+      ],
+      "sizes": [
+        "9.5 W x 6.5 H x 2 D inches"
+      ],
+      "description": "Structured camera-bag silhouette in crosshatch Saffiano leather with polished gilt chain-link hardware and adjustable leather crossbody strap.",
+      "features": [
+        "100% Saffiano scratch-resistant leather",
+        "Polished gold-tone metallic hardware and logo plaque",
+        "Interior back slip pocket and front slit pocket",
+        "Top zipper closure with custom fabric lining"
+      ]
+    },
+    {
+      "id": "baby-1",
+      "name": "Pampers Premium Care Diaper Pants (Large 78 Count Pack)",
+      "brand": "Pampers",
+      "category": "baby",
+      "categoryLabel": "Baby & Kids Products",
+      "subcategory": "Diapers, Pants & Pure Wipes",
+      "price": 1399,
+      "originalPrice": 1999,
+      "discount": 30,
+      "rating": 4.9,
+      "reviewCount": 9840,
+      "stockQuantity": 160,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Doctor #1 Recommended",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-nature",
+      "seller": "PureEarth Organics & Essentials",
+      "image": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Standard"
+      ],
+      "sizes": [
+        "Large (9-14 kg) 78 Pants"
+      ],
+      "description": "Ultra-soft feather-like material with aloe vera lotion to soothe delicate skin. 3 air channels distribute wetness evenly for up to 12 hours dryness.",
+      "features": [
+        "Infused with mild Aloe Vera soothing lotion",
+        "12-hour leak-lock absorption core",
+        "Wetness indicator line turns yellow to blue",
+        "360-degree soft stretchy waistband"
+      ]
+    },
+    {
+      "id": "baby-2",
+      "name": "LuvLap Sunshine 3-in-1 Compact Foldable Baby Stroller & Pram",
+      "brand": "LuvLap",
+      "category": "baby",
+      "categoryLabel": "Baby & Kids Products",
+      "subcategory": "Strollers, Prams & Car Seats",
+      "price": 4999,
+      "originalPrice": 8499,
+      "discount": 41,
+      "rating": 4.7,
+      "reviewCount": 3840,
+      "stockQuantity": 35,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "Parent Favorite",
+      "deliveryDays": 2,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1591088398332-8a7791972843?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Navy Denim Melange",
+        "Charcoal Grey"
+      ],
+      "sizes": [
+        "0 to 3 Years (Up to 15 kg)"
+      ],
+      "description": "3-position reclining seat (sitting, resting, sleeping) with reversible handlebar so parents can face baby. 5-point safety harness and swivel wheels.",
+      "features": [
+        "Reversible handlebar for parent eye-contact",
+        "3-position reclining seat with 5-point harness",
+        "Front swivel wheels with independent brakes",
+        "One-hand quick fold with spacious shopping basket"
+      ]
+    },
+    {
+      "id": "baby-3",
+      "name": "Philips Avent Natural Baby Bottle Starter Set (4-Bottle Pack)",
+      "brand": "Philips Avent",
+      "category": "baby",
+      "categoryLabel": "Baby & Kids Products",
+      "subcategory": "Feeding Bottles & Nursing",
+      "price": 2490,
+      "originalPrice": 3290,
+      "discount": 24,
+      "rating": 4.8,
+      "reviewCount": 4120,
+      "stockQuantity": 60,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Anti-Colic Valve",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Crystal Clear Polypropylene"
+      ],
+      "sizes": [
+        "2 x 125ml + 2 x 260ml Bottles + Brush"
+      ],
+      "description": "Wide breast-shaped silicone teat promotes natural latch-on similar to the breast. Advanced anti-colic system vents air away from baby's tummy.",
+      "features": [
+        "100% BPA-Free polypropylene and silicone",
+        "Wide breast-shaped teat for easy combination feeding",
+        "Airflex anti-colic valve reduces fussing and gas",
+        "Includes bottle cleaning brush and soother"
+      ]
+    },
+    {
+      "id": "baby-4",
+      "name": "Sebamed Baby Gentle Wash & Cleansing Bar Duo (Extra Soft)",
+      "brand": "Sebamed",
+      "category": "baby",
+      "categoryLabel": "Baby & Kids Products",
+      "subcategory": "Gentle Baby Bath & Skincare",
+      "price": 1150,
+      "originalPrice": 1450,
+      "discount": 21,
+      "rating": 4.9,
+      "reviewCount": 3120,
+      "stockQuantity": 75,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "pH 5.5 Clinically Proven",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-nature",
+      "seller": "PureEarth Organics & Essentials",
+      "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Mild Tear-Free"
+      ],
+      "sizes": [
+        "400ml Pump Bottle + 100g Bar"
+      ],
+      "description": "Made in Germany. 100% soap and alkali free formula with pH 5.5 to support development of baby's natural skin acid mantle.",
+      "features": [
+        "pH 5.5 supports natural skin acid barrier",
+        "Enriched with Chamomile and Allantoin",
+        "Tear-free hypoallergenic formula",
+        "Dermatologically tested for newborn skin"
+      ]
+    },
+    {
+      "id": "baby-5",
+      "name": "Mothercare 100% Organic Cotton Unisex Baby Sleepsuits (Pack of 3)",
+      "brand": "Mothercare",
+      "category": "baby",
+      "categoryLabel": "Baby & Kids Products",
+      "subcategory": "Organic Baby Apparel Sets",
+      "price": 1899,
+      "originalPrice": 2899,
+      "discount": 34,
+      "rating": 4.8,
+      "reviewCount": 2480,
+      "stockQuantity": 50,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": false,
+      "isTrending": true,
+      "badge": "100% Organic",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-lifestyle",
+      "seller": "Trendsetter Lifestyle Retails",
+      "image": "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Safari Animals / Mint Green / White"
+      ],
+      "sizes": [
+        "0-3 Months",
+        "3-6 Months",
+        "6-12 Months"
+      ],
+      "description": "Pure combed organic cotton sleepsuits with full popper front opening for easy late-night diaper changes. Enclosed toe safety.",
+      "features": [
+        "100% GOTS Certified Organic Cotton",
+        "Nickel-free popper fastenings prevent skin irritation",
+        "Integral scratch mitts on newborn sizes",
+        "Toe-safe design keeps loose threads away from toes"
+      ]
+    },
+    {
+      "id": "baby-6",
+      "name": "Fisher-Price Kick & Play Deluxe Piano Musical Gym Mat",
+      "brand": "Fisher-Price",
+      "category": "baby",
+      "categoryLabel": "Baby & Kids Products",
+      "subcategory": "Infant Toys & Teethers",
+      "price": 3299,
+      "originalPrice": 4499,
+      "discount": 27,
+      "rating": 4.9,
+      "reviewCount": 4890,
+      "stockQuantity": 40,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Parent Favorite",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Deluxe Green Rainforest"
+      ],
+      "sizes": [
+        "Infant Activity Mat + Light-Up Piano"
+      ],
+      "description": "4 ways to play as baby grows: Lay & play, Tummy time, Sit & play, and Take along. Removable light-up keyboard rewards kicking with musical tunes.",
+      "features": [
+        "Smart Stages technology adapts learning content",
+        "Light-up piano keys reward baby's kicks with songs",
+        "5 repositionable activity toys and self-discovery mirror",
+        "Machine-washable cushioned play mat"
+      ]
+    },
+    {
+      "id": "baby-7",
+      "name": "Nanit Pro Smart Baby Monitor & Wall Mount with Sleep Tracking",
+      "brand": "Nanit",
+      "category": "baby",
+      "categoryLabel": "Baby & Kids Products",
+      "subcategory": "Nursery Furniture & Monitors",
+      "price": 24990,
+      "originalPrice": 29990,
+      "discount": 17,
+      "rating": 4.8,
+      "reviewCount": 780,
+      "stockQuantity": 15,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": false,
+      "isTrending": true,
+      "badge": "Smart Nursery",
+      "deliveryDays": 2,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Matte White"
+      ],
+      "sizes": [
+        "1080p Overhead Camera"
+      ],
+      "description": "Tracks baby's breathing motions without sensors touching their skin. Streams 1080p HD video with night vision and two-way audio to your smartphone.",
+      "features": [
+        "1080p HD overhead video with infrared night vision",
+        "Sensor-free breathing motion monitoring with breathing band",
+        "Automated sleep tracking and custom pediatric sleep tips",
+        "256-bit enterprise-grade data encryption"
+      ]
+    },
+    {
+      "id": "baby-8",
+      "name": "Babyhug First Food Soft Silicone Suction Feeding Set (5-Piece)",
+      "brand": "Babyhug",
+      "category": "baby",
+      "categoryLabel": "Baby & Kids Products",
+      "subcategory": "Feeding Bottles & Nursing",
+      "price": 1299,
+      "originalPrice": 1999,
+      "discount": 35,
+      "rating": 4.7,
+      "reviewCount": 2910,
+      "stockQuantity": 65,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Weaning Essential",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-nature",
+      "seller": "PureEarth Organics & Essentials",
+      "image": "https://images.unsplash.com/photo-1544816155-12df9643f363?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Sage Green",
+        "Dusty Pink",
+        "Muted Mustard"
+      ],
+      "sizes": [
+        "5-Piece Weaning Set"
+      ],
+      "description": "Strong suction base sticks tightly to high chair trays so toddlers can't flip their meal. 100% food-grade silicone free from BPA, PVC, and phthalates.",
+      "features": [
+        "100% Food-Grade Platinum Silicone",
+        "Extra-strong suction bowl and 3-compartment divider plate",
+        "Adjustable catch-all crumb bib and soft chew spoons",
+        "Microwave, freezer, and dishwasher safe"
+      ]
+    },
+    {
+      "id": "auto-1",
+      "name": "70mai 4K Ultra HD Dual Dash Cam with Sony Starvis 2 Sensor",
+      "brand": "70mai",
+      "category": "automotive",
+      "categoryLabel": "Automotive Accessories",
+      "subcategory": "Car Dash Cams & Audio",
+      "price": 13999,
+      "originalPrice": 18999,
+      "discount": 26,
+      "rating": 4.8,
+      "reviewCount": 3410,
+      "stockQuantity": 40,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "Top Rated",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-omni",
+      "seller": "OmniRetail Global Marketplace",
+      "image": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Graphite Black"
+      ],
+      "sizes": [
+        "Front 4K + Rear 1080p"
+      ],
+      "description": "True 4K UHD with Sony STARVIS 2 IMX678 sensor and HDR. Built-in GPS logger, ADAS driver assist, and 24-hour parked surveillance with collision detection.",
+      "features": [
+        "4K UHD Front + 1080p Full HD Rear camera",
+        "Sony STARVIS 2 Night Owl vision",
+        "Built-in GPS with route logging and speed stamps",
+        "ADAS lane departure and collision warning"
+      ]
+    },
+    {
+      "id": "auto-2",
+      "name": "Michelin Digital High-Power Rapid Tyre Inflator (12V Auto Shut-Off)",
+      "brand": "Michelin",
+      "category": "automotive",
+      "categoryLabel": "Automotive Accessories",
+      "subcategory": "Tyre Inflators & Emergency Kits",
+      "price": 3699,
+      "originalPrice": 4999,
+      "discount": 26,
+      "rating": 4.8,
+      "reviewCount": 4890,
+      "stockQuantity": 65,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Emergency Essential",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-apex",
+      "seller": "Apex Consumer Direct India",
+      "image": "https://images.unsplash.com/photo-1578844251758-2f71da64c96f?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Signature Michelin Blue/Black"
+      ],
+      "sizes": [
+        "12V Cigarette Lighter Socket"
+      ],
+      "description": "Inflates a standard car tyre from flat to 35 PSI in under 3 minutes. Programmable digital gauge with automatic shut-off and ultra-bright white LED light.",
+      "features": [
+        "Inflates car tyre in under 3 minutes",
+        "Auto-stop shuts off precisely at preset target PSI",
+        "Clear digital LED pressure gauge (accurate to +/- 1 PSI)",
+        "High-output LED work light for night emergencies"
+      ]
+    },
+    {
+      "id": "auto-3",
+      "name": "Baseus Cordless Handheld 15000Pa Car Vacuum Cleaner",
+      "brand": "Baseus",
+      "category": "automotive",
+      "categoryLabel": "Automotive Accessories",
+      "subcategory": "High-Power Car Vacuums",
+      "price": 3899,
+      "originalPrice": 5999,
+      "discount": 35,
+      "rating": 4.7,
+      "reviewCount": 2840,
+      "stockQuantity": 50,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": false,
+      "isTrending": true,
+      "badge": "Popular Pick",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-apex",
+      "seller": "Apex Consumer Direct India",
+      "image": "https://images.unsplash.com/photo-1558317374-067fb5f30001?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Space Gray Aluminum"
+      ],
+      "sizes": [
+        "Rechargeable Cordless (135W)"
+      ],
+      "description": "Compact aluminum body fits inside your car cup holder. 15,000Pa extreme suction from an 80,000 RPM brushless motor eats crumbs, gravel, and pet hair.",
+      "features": [
+        "15000Pa powerful suction from brushless motor",
+        "Washable dual steel and HEPA filter",
+        "45 minutes battery life with Type-C fast charging",
+        "Includes 2-in-1 crevice nozzle and extension hose"
+      ]
+    },
+    {
+      "id": "auto-4",
+      "name": "Axor Apex Solid Matte Black ECE & DOT Certified Riding Helmet",
+      "brand": "Axor",
+      "category": "automotive",
+      "categoryLabel": "Automotive Accessories",
+      "subcategory": "Motorcycle Riding Helmets & Gear",
+      "price": 4994,
+      "originalPrice": 6245,
+      "discount": 20,
+      "rating": 4.8,
+      "reviewCount": 3120,
+      "stockQuantity": 45,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "ECE Certified",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-apex",
+      "seller": "Apex Consumer Direct India",
+      "image": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Matte Black",
+        "Venom Gloss Graphic"
+      ],
+      "sizes": [
+        "M (57-58cm)",
+        "L (59-60cm)",
+        "XL (61-62cm)"
+      ],
+      "description": "Dual certified with ECE 22.05 and DOT safety standards. Aerodynamic spoiler, internal drop-down sun visor, and Pinlock 30 anti-fog ready face shield.",
+      "features": [
+        "Dual certified: ECE R-22.05 (Europe) & DOT (US)",
+        "Internal drop-down anti-scratch tinted sun shield",
+        "Anti-allergic breathable removable cheek pads",
+        "Integrated Bluetooth communication speaker pockets"
+      ]
+    },
+    {
+      "id": "auto-5",
+      "name": "Meguiar's Hybrid Ceramic Wax Spray (768ml Hydrophobic Sealant)",
+      "brand": "Meguiar's",
+      "category": "automotive",
+      "categoryLabel": "Automotive Accessories",
+      "subcategory": "Car Care, Polish & Ceramic Wax",
+      "price": 1999,
+      "originalPrice": 2699,
+      "discount": 26,
+      "rating": 4.8,
+      "reviewCount": 4210,
+      "stockQuantity": 60,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Pro Detailing",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-apex",
+      "seller": "Apex Consumer Direct India",
+      "image": "https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Ceramic Blue"
+      ],
+      "sizes": [
+        "768ml Trigger Spray"
+      ],
+      "description": "Advanced SiO2 hybrid ceramic technology. Simply spray on after rinsing your car, rinse off again with water, and dry. Insane water beading protection.",
+      "features": [
+        "Advanced SiO2 hybrid ceramic formula",
+        "No rubbing, buffing, or curing required",
+        "Extreme water-beading hydrophobic barrier",
+        "UV and environmental fallout protection for months"
+      ]
+    },
+    {
+      "id": "auto-6",
+      "name": "Spigen OneTap Pro MagSafe Fast Wireless Car Charger Mount",
+      "brand": "Spigen",
+      "category": "automotive",
+      "categoryLabel": "Automotive Accessories",
+      "subcategory": "Phone Mounts & In-Car Chargers",
+      "price": 3499,
+      "originalPrice": 4999,
+      "discount": 30,
+      "rating": 4.7,
+      "reviewCount": 2650,
+      "stockQuantity": 55,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "MagSafe Certified",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-apex",
+      "seller": "Apex Consumer Direct India",
+      "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Matte Black"
+      ],
+      "sizes": [
+        "Air Vent Mount"
+      ],
+      "description": "OneTap technology securely snaps your iPhone or MagSafe device into place with powerful rare-earth magnets while delivering 15W wireless charging.",
+      "features": [
+        "OneTap technology locks iPhone with single touch",
+        "Fast 15W Qi wireless charging induction coil",
+        "Strong silicone-coated hook fits all car air vents",
+        "360-degree ball joint for portrait or landscape GPS"
+      ]
+    },
+    {
+      "id": "auto-7",
+      "name": "TUSA Heavy Duty Multi-Layer All-Weather Waterproof Car Cover",
+      "brand": "TUSA",
+      "category": "automotive",
+      "categoryLabel": "Automotive Accessories",
+      "subcategory": "Car Care, Polish & Ceramic Wax",
+      "price": 2499,
+      "originalPrice": 3999,
+      "discount": 38,
+      "rating": 4.6,
+      "reviewCount": 1890,
+      "stockQuantity": 40,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": false,
+      "isTrending": false,
+      "badge": "100% Waterproof",
+      "deliveryDays": 2,
+      "freeDelivery": true,
+      "sellerId": "seller-apex",
+      "seller": "Apex Consumer Direct India",
+      "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Metallic Silver UV Coated"
+      ],
+      "sizes": [
+        "Custom Fit (Select Hatchback/Sedan/SUV)"
+      ],
+      "description": "5-layer high-density spunbond fabric with waterproof PEVA membrane and soft cotton inner lining that won't scratch car paint under wind.",
+      "features": [
+        "5-layer heavy-duty waterproof PEVA construction",
+        "Soft cotton interior lining protects clearcoat paint",
+        "Windproof buckle straps with elastic hem edges",
+        "Reflective safety warning strips for nighttime visibility"
+      ]
+    },
+    {
+      "id": "auto-8",
+      "name": "Blackcat 12V Compact Tyre Repair Kit with Heavy Duty Jumper Cables",
+      "brand": "Blackcat",
+      "category": "automotive",
+      "categoryLabel": "Automotive Accessories",
+      "subcategory": "Tyre Inflators & Emergency Kits",
+      "price": 1899,
+      "originalPrice": 2999,
+      "discount": 37,
+      "rating": 4.7,
+      "reviewCount": 1420,
+      "stockQuantity": 45,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": false,
+      "isTrending": false,
+      "badge": "Highway Emergency",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-apex",
+      "seller": "Apex Consumer Direct India",
+      "image": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Safety Red Bag"
+      ],
+      "sizes": [
+        "Complete 12-Piece Emergency Kit"
+      ],
+      "description": "Essential road trip protection. Includes 8-gauge heavy copper jumper cables, puncture repair tools, rubber strips, tow strap, and LED torch.",
+      "features": [
+        "Heavy-duty 10-foot booster jumper cables",
+        "Complete tubeless tyre puncture plug repair tools",
+        "Heavy 3-ton capacity nylon towing strap",
+        "Compact waterproof hard-shell carry case"
+      ]
+    },
+    {
+      "id": "pet-1",
+      "name": "Royal Canin Maxi Adult Dry Dog Food (15 Kilogram Bag)",
+      "brand": "Royal Canin",
+      "category": "pets",
+      "categoryLabel": "Pet Supplies",
+      "subcategory": "Dog Nutrition & Crunchy Treats",
+      "price": 7999,
+      "originalPrice": 9999,
+      "discount": 20,
+      "rating": 4.9,
+      "reviewCount": 4120,
+      "stockQuantity": 50,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "Vet Recommended",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-nature",
+      "seller": "PureEarth Organics & Essentials",
+      "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Standard"
+      ],
+      "sizes": [
+        "15 kg Bag"
+      ],
+      "description": "Tailored nutrition for large breed adult dogs (26-44 kg). Supports optimal joint health with glucosamine & chondroitin, and promotes healthy digestion.",
+      "features": [
+        "High digestibility with exclusive protein formula",
+        "EPA & DHA omega fatty acids support skin and shiny coat",
+        "Bone and joint support for active large dogs",
+        "Custom kibble size promotes proper chewing"
+      ]
+    },
+    {
+      "id": "pet-2",
+      "name": "Bedsure Orthopedic Memory Foam Dog Bed with Removable Washable Cover",
+      "brand": "Bedsure",
+      "category": "pets",
+      "categoryLabel": "Pet Supplies",
+      "subcategory": "Orthopedic Pet Beds & Mats",
+      "price": 3499,
+      "originalPrice": 4999,
+      "discount": 30,
+      "rating": 4.8,
+      "reviewCount": 2980,
+      "stockQuantity": 35,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "Orthopedic Comfort",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-nature",
+      "seller": "PureEarth Organics & Essentials",
+      "image": "https://images.unsplash.com/photo-1541599540903-216a46ca1dc0?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Denim Blue / Sherpa Top",
+        "Charcoal Gray"
+      ],
+      "sizes": [
+        "Large (36 x 27 x 3.5 inches)"
+      ],
+      "description": "High-density egg-crate foam evenly distributes pet body weight, relieving pressure on aching joints and hip dysplasia. Soft plush sherpa fleece top.",
+      "features": [
+        "Egg-crate orthopedic foam core provides joint relief",
+        "Ultra-soft plush sherpa fleece sleep surface",
+        "Waterproof internal liner protects foam from accidents",
+        "Machine washable removable zippered cover"
+      ]
+    },
+    {
+      "id": "pet-3",
+      "name": "Catit Flower 3L Automatic Cat Water Fountain with Triple Filter",
+      "brand": "Catit",
+      "category": "pets",
+      "categoryLabel": "Pet Supplies",
+      "subcategory": "Cat Food, Litter & Scratchers",
+      "price": 2490,
+      "originalPrice": 3490,
+      "discount": 29,
+      "rating": 4.7,
+      "reviewCount": 3420,
+      "stockQuantity": 45,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Cat Hydration",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-nature",
+      "seller": "PureEarth Organics & Essentials",
+      "image": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "White / Lime Green Flower"
+      ],
+      "sizes": [
+        "3 Litre Reservoir"
+      ],
+      "description": "Entices cats to drink more fresh, oxygenated water. Features 3 water flow settings: gentle flow, bubbling top, and calm stream with triple-action filter.",
+      "features": [
+        "3 water flow settings entice picky cats to drink",
+        "Triple-action filter removes calcium, odors & hair",
+        "Low-voltage ultra-quiet submersible pump",
+        "BPA-Free easy-clean components"
+      ]
+    },
+    {
+      "id": "pet-4",
+      "name": "KONG Classic Durable Natural Rubber Dog Chew Toy (Large Red)",
+      "brand": "KONG",
+      "category": "pets",
+      "categoryLabel": "Pet Supplies",
+      "subcategory": "Interactive Chew & Fetch Toys",
+      "price": 1199,
+      "originalPrice": 1599,
+      "discount": 25,
+      "rating": 4.9,
+      "reviewCount": 6840,
+      "stockQuantity": 90,
+      "inStock": true,
+      "isDeal": false,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Dog Favorite",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-nature",
+      "seller": "PureEarth Organics & Essentials",
+      "image": "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Classic Red"
+      ],
+      "sizes": [
+        "Large (Dogs 13-30 kg)"
+      ],
+      "description": "The gold standard of dog toys for over 40 years. Unpredictable bounce for games of fetch. Stuff with peanut butter or treats for hours of mental enrichment.",
+      "features": [
+        "Ultra-durable all-natural red rubber compound",
+        "Unpredictable erratic bounce stimulates chasing instinct",
+        "Hollow core can be stuffed with treats and frozen",
+        "Mentally stimulates dogs and prevents destructive chewing"
+      ]
+    },
+    {
+      "id": "pet-5",
+      "name": "Whiskas Adult Wet Cat Food Pouches (Gravy Selection 24-Pack)",
+      "brand": "Whiskas",
+      "category": "pets",
+      "categoryLabel": "Pet Supplies",
+      "subcategory": "Cat Food, Litter & Scratchers",
+      "price": 1080,
+      "originalPrice": 1320,
+      "discount": 18,
+      "rating": 4.8,
+      "reviewCount": 5120,
+      "stockQuantity": 80,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Value Multipack",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-nature",
+      "seller": "PureEarth Organics & Essentials",
+      "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Tuna & Salmon in Gravy"
+      ],
+      "sizes": [
+        "24 x 85g Pouches"
+      ],
+      "description": "Tender meaty chunks in succulent savory gravy. Formulated with balanced mineral levels to support a healthy urinary tract and zinc for a lustrous coat.",
+      "features": [
+        "Complete and balanced nutrition for adult cats 1+ years",
+        "Real meat cuts in tempting delicious gravy",
+        "Zinc and omega-6 fatty acids for coat shine",
+        "Promotes optimal urinary hydration"
+      ]
+    },
+    {
+      "id": "pet-6",
+      "name": "FURminator Undercoat De-Shedding Tool for Dogs (Medium/Large)",
+      "brand": "FURminator",
+      "category": "pets",
+      "categoryLabel": "Pet Supplies",
+      "subcategory": "Pet Grooming, Shampoos & Brushes",
+      "price": 1899,
+      "originalPrice": 2899,
+      "discount": 34,
+      "rating": 4.9,
+      "reviewCount": 4210,
+      "stockQuantity": 45,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": true,
+      "badge": "De-Shedding Leader",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-nature",
+      "seller": "PureEarth Organics & Essentials",
+      "image": "https://images.unsplash.com/photo-1535294435445-d7249524ef2e?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Yellow/Grey"
+      ],
+      "sizes": [
+        "Large (Dogs over 22 kg)"
+      ],
+      "description": "Reduces loose shedding hair by up to 90%. Stainless steel de-shedding edge reaches through topcoat to safely remove loose undercoat hair without cutting skin.",
+      "features": [
+        "Stainless steel edge reaches safely through topcoat",
+        "FURejector button cleans and releases hair with one touch",
+        "Ergonomic non-slip rubber handle",
+        "Curved skin-guard conforms to pet's natural shape"
+      ]
+    },
+    {
+      "id": "pet-7",
+      "name": "Flexi New Classic Retractable Heavy-Duty Dog Leash (5m Cord)",
+      "brand": "Flexi",
+      "category": "pets",
+      "categoryLabel": "Pet Supplies",
+      "subcategory": "Leashes, Harnesses & Collars",
+      "price": 1599,
+      "originalPrice": 2299,
+      "discount": 30,
+      "rating": 4.8,
+      "reviewCount": 3120,
+      "stockQuantity": 50,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": false,
+      "isTrending": false,
+      "badge": "German Quality",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-nature",
+      "seller": "PureEarth Organics & Essentials",
+      "image": "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Gloss Black",
+        "Electric Blue",
+        "Ruby Red"
+      ],
+      "sizes": [
+        "Medium (Dogs up to 25 kg) 5 Metre"
+      ],
+      "description": "Made in Germany. 5-metre high-tensile tape provides freedom of movement while the responsive one-handed braking mechanism gives instant control.",
+      "features": [
+        "5 Metres of high-tensile retractable tape",
+        "Short-stroke responsive one-handed braking system",
+        "Ergonomic handle grip with chrome snap hook",
+        "Tangle-free tape guidance prevents jamming"
+      ]
+    },
+    {
+      "id": "pet-8",
+      "name": "Captain Zack Barking Up The Tea Tree Anti-Microbial Dog Shampoo (500ml)",
+      "brand": "Captain Zack",
+      "category": "pets",
+      "categoryLabel": "Pet Supplies",
+      "subcategory": "Pet Grooming, Shampoos & Brushes",
+      "price": 549,
+      "originalPrice": 750,
+      "discount": 27,
+      "rating": 4.7,
+      "reviewCount": 2840,
+      "stockQuantity": 70,
+      "inStock": true,
+      "isDeal": true,
+      "isBestseller": true,
+      "isTrending": false,
+      "badge": "Ayurvedic & Vegan",
+      "deliveryDays": 1,
+      "freeDelivery": true,
+      "sellerId": "seller-nature",
+      "seller": "PureEarth Organics & Essentials",
+      "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=800&auto=format&fit=crop&q=80",
+      "colors": [
+        "Natural Botanical"
+      ],
+      "sizes": [
+        "500ml Pump Bottle"
+      ],
+      "description": "Infused with Australian Tea Tree Oil and Vitamin E. Relieves itching, eliminates odors, and wards off ticks and fleas naturally without harsh chemicals.",
+      "features": [
+        "Natural Australian Tea Tree oil antiseptic formula",
+        "Relieves dry itchy skin and combats hot spots",
+        "Paraben-free, sulfate-free, and vegan certified",
+        "Fresh botanical aroma deodorizes coat"
+      ]
+    }
+  ]
+}

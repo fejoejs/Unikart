@@ -1,0 +1,12 @@
+.venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache
+*.db
+*.sqlite3
+uvicorn.log
+.env
+.env.local
+test_unikart.db

@@ -1,0 +1,14 @@
+{
+  "name": "@unikart/ui",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "dependencies": {
+    "lucide-react": "^1.16.0",
+    "react": "^18.3.1",
+    "react-router-dom": "^6.29.0"
+  }
+}
